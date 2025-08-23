@@ -1,0 +1,45 @@
+{
+  "patients": {
+    "total_records": 382278,
+    "death_field": "dod",
+    "deaths": 9509,
+    "death_rate": 2.4874567722966012
+  },
+  "admissions": {
+    "total_records": 523740,
+    "death_fields": [
+      "deathtime",
+      "hospital_expire_flag"
+    ],
+    "deathtime_count": 9337,
+    "hospital_expire_flag_count": 9350
+  },
+  "icustays": {
+    "total_records": 76540,
+    "death_fields": []
+  },
+  "diagnoses_icd.csv": {
+    "death_related_diagnoses": 3385
+  },
+  "consistency_check": {
+    "deathtime_vs_flag": {
+      "both_true": 9337,
+      "only_deathtime": 0,
+      "only_flag": 13,
+      "consistent": false
+    },
+    "hospital_vs_dod": {
+      "hospital_with_dod": 9350,
+      "hospital_without_dod": 0,
+      "outside_hospital_with_dod": 25096
+    }
+  },
+  "death_location_stats": {
+    "hospital_deaths": 9350,
+    "outside_deaths": 25096,
+    "alive": 489294,
+    "hospital_death_rate": 1.7852369496314964,
+    "outside_death_rate": 4.791690533470806,
+    "survival_rate": 93.4230725168977
+  }
+}

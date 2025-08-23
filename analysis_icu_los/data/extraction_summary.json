@@ -1,0 +1,18 @@
+{
+  "total_icu_stays": 451,
+  "unique_patients": 375,
+  "unique_admissions": 378,
+  "icu_units": 9,
+  "los_stats": {
+    "mean": 4.317255199351235,
+    "median": 2.2997916666666667,
+    "std": 6.017165501792086,
+    "min": 0.0118634259259259,
+    "max": 65.19082175925926
+  },
+  "mortality": {
+    "hospital_death": 305,
+    "post_discharge_death": 62,
+    "alive": 84
+  }
+}

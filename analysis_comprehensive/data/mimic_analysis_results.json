@@ -1,0 +1,228 @@
+{
+  "basic_stats": {
+    "unique_patients_in_admissions": 256878,
+    "unique_patients_in_patients": 382278,
+    "unique_patients_in_transfers": 382278,
+    "total_admissions": 523740,
+    "total_admission_records": 523740,
+    "total_transfers": 2189535,
+    "unique_transfer_patients": 382278
+  },
+  "patient_demographics": {
+    "gender_distribution": {
+      "F": 199707,
+      "M": 182571
+    },
+    "age_stats": {
+      "mean": 40.93180355657401,
+      "median": 41.0,
+      "std": 26.11445668188919,
+      "min": "0",
+      "max": "91"
+    },
+    "age_groups": {
+      "Young Adult (19-40)": 125704,
+      "Middle Age (41-60)": 90730,
+      "Elderly (61-80)": 74001,
+      "Very Elderly (80+)": 26805,
+      "Pediatric (0-18)": 4166
+    }
+  },
+  "admission_patterns": {
+    "admission_types": {
+      "EW EMER.": 157896,
+      "EU OBSERVATION": 100445,
+      "ELECTIVE": 72072,
+      "OBSERVATION ADMIT": 55497,
+      "URGENT": 47930,
+      "SURGICAL SAME DAY ADMISSION": 41074,
+      "DIRECT EMER.": 21581,
+      "DIRECT OBSERVATION": 19991,
+      "AMBULATORY OBSERVATION": 7254
+    },
+    "admission_locations": {
+      "EMERGENCY ROOM": 245744,
+      "PHYSICIAN REFERRAL": 127494,
+      "TRANSFER FROM HOSPITAL": 39121,
+      "WALK-IN/SELF REFERRAL": 16660,
+      "CLINIC REFERRAL": 10670,
+      "PROCEDURE SITE": 8449,
+      "PACU": 6067,
+      "INTERNAL TRANSFER TO OR FROM PSYCH": 4467,
+      "TRANSFER FROM SKILLED NURSING FACILITY": 4063,
+      "INFORMATION NOT AVAILABLE": 379
+    },
+    "discharge_locations": {
+      "HOME": 222173,
+      "HOME HEALTH CARE": 86026,
+      "SKILLED NURSING FACILITY": 46207,
+      "REHAB": 11328,
+      "DIED": 9238,
+      "CHRONIC/LONG TERM ACUTE CARE": 7591,
+      "HOSPICE": 3679,
+      "ACUTE HOSPITAL": 3499,
+      "AGAINST ADVICE": 2718,
+      "PSYCH FACILITY": 2417
+    },
+    "insurance_types": {
+      "Other": 301530,
+      "Medicare": 171360,
+      "Medicaid": 50850
+    },
+    "los_stats": {
+      "mean_days": 4.5639121537191905,
+      "median_days": 2.673611111111111,
+      "percentile_25": 1.2395833333333333,
+      "percentile_75": 4.9625,
+      "percentile_95": 14.430555555555555
+    }
+  },
+  "mortality_analysis": {
+    "hospital_mortality_rate": 1.7852369496314964,
+    "hospital_deaths": "9350",
+    "overall_mortality_rate": 2.4874567722966012,
+    "total_deaths": "9509"
+  },
+  "readmission_stats": {
+    "patients_with_readmissions": 85111,
+    "total_readmissions": "264944",
+    "readmissions_30_days": "91177",
+    "readmission_rate_30_days": 17.40882880818727
+  },
+  "emergency_stats": {
+    "ed_admissions": 311504,
+    "ed_admission_rate": 59.47683965326307,
+    "ed_los_hours_mean": 10.174096961836767,
+    "ed_los_hours_median": 7.433333333333334
+  },
+  "transfer_patterns": {
+    "event_types": {
+      "ED": 661053,
+      "admit": 523749,
+      "discharge": 523740,
+      "transfer": 480993
+    },
+    "top_care_units": {
+      "Emergency Department": 661053,
+      "Medicine": 150908,
+      "Emergency Department Observation": 85815,
+      "Nursery - Well Babies": 67664,
+      "Med/Surg": 49926,
+      "Medicine/Cardiology": 46447,
+      "Neurology": 41183,
+      "Hematology/Oncology": 37522,
+      "Vascular": 32965,
+      "Transplant": 31529,
+      "Neonatal Intensive Care Unit (NICU)": 29363,
+      "Med/Surg/Trauma": 28112,
+      "Med/Surg/GYN": 27993,
+      "PACU": 26459,
+      "Labor & Delivery": 24038
+    },
+    "icu_admissions": 0,
+    "icu_patients": 0
+  },
+  "data_quality": {
+    "admissions_nulls": {
+      "deathtime": {
+        "count": "514403",
+        "percentage": 98.217245197999
+      },
+      "admission_location": {
+        "count": "60435",
+        "percentage": 11.5391224653454
+      },
+      "discharge_location": {
+        "count": "126657",
+        "percentage": 24.183182495131174
+      },
+      "marital_status": {
+        "count": "66107",
+        "percentage": 12.62210256997747
+      },
+      "edregtime": {
+        "count": "212236",
+        "percentage": 40.52316034673693
+      },
+      "edouttime": {
+        "count": "212236",
+        "percentage": 40.52316034673693
+      },
+      "ed_los_hours": {
+        "count": "212236",
+        "percentage": 40.52316034673693
+      }
+    },
+    "patients_nulls": {
+      "dod": {
+        "count": "372769",
+        "percentage": 97.51254322770339
+      }
+    },
+    "transfers_nulls": {
+      "hadm_id": {
+        "count": "348553",
+        "percentage": 15.919042171054585
+      },
+      "careunit": {
+        "count": "585397",
+        "percentage": 26.736133471262164
+      },
+      "outtime": {
+        "count": "523737",
+        "percentage": 23.92001041316992
+      }
+    }
+  },
+  "demographic_details": {
+    "ethnicity_distribution": {
+      "WHITE": 337630,
+      "BLACK/AFRICAN AMERICAN": 80293,
+      "HISPANIC/LATINO": 29823,
+      "OTHER": 26813,
+      "ASIAN": 24506,
+      "UNKNOWN": 19400,
+      "UNABLE TO OBTAIN": 3740,
+      "AMERICAN INDIAN/ALASKA NATIVE": 1535
+    },
+    "marital_status_distribution": {
+      "MARRIED": 195126,
+      "SINGLE": 179992,
+      "WIDOWED": 48806,
+      "DIVORCED": 33709
+    },
+    "language_distribution": {
+      "ENGLISH": 477556,
+      "?": 46184
+    }
+  },
+  "admission_frequency": {
+    "total_unique_patients": 256878,
+    "single_admission": 171080,
+    "multiple_admissions": 85798,
+    "frequent_users_5plus": 20250,
+    "max_admissions_per_patient": 238,
+    "mean_admissions_per_patient": 2.0388666993670146,
+    "median_admissions_per_patient": 1.0
+  },
+  "mortality_details": {
+    "mortality_by_age_group": {
+      "0-18": 1,
+      "19-40": 413,
+      "41-60": 1984,
+      "61-80": 4205,
+      "80-100": 2693
+    },
+    "mortality_by_admission_type": {
+      "AMBULATORY OBSERVATION": 0.013785497656465398,
+      "DIRECT EMER.": 2.029563041564339,
+      "DIRECT OBSERVATION": 0.13005852633685158,
+      "ELECTIVE": 0.4065379065379065,
+      "EU OBSERVATION": 0.08064114689631141,
+      "EW EMER.": 3.482672138622891,
+      "OBSERVATION ADMIT": 2.037947997189037,
+      "SURGICAL SAME DAY ADMISSION": 0.30919803281881486,
+      "URGENT": 3.659503442520342
+    }
+  }
+}

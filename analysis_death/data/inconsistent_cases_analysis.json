@@ -1,0 +1,219 @@
+{
+  "total_inconsistent_cases": 13,
+  "case_ids": [
+    {
+      "subject_id": 13594875,
+      "hadm_id": 22736202,
+      "gender": "M",
+      "age": 22,
+      "admission_type": "EW EMER.",
+      "admission_location": "PACU",
+      "discharge_location": NaN,
+      "insurance": "Other",
+      "ethnicity": "WHITE",
+      "admittime": "2154-06-07 14:34:00",
+      "dischtime": "2154-06-07 17:00:00",
+      "dod": "2154-06-07"
+    },
+    {
+      "subject_id": 18463717,
+      "hadm_id": 24608289,
+      "gender": "F",
+      "age": 85,
+      "admission_type": "EW EMER.",
+      "admission_location": "EMERGENCY ROOM",
+      "discharge_location": "DIED",
+      "insurance": "Medicare",
+      "ethnicity": "WHITE",
+      "admittime": "2184-07-10 09:26:00",
+      "dischtime": "2184-07-16 21:48:00",
+      "dod": "2184-07-16"
+    },
+    {
+      "subject_id": 14126394,
+      "hadm_id": 25239921,
+      "gender": "F",
+      "age": 48,
+      "admission_type": "URGENT",
+      "admission_location": "TRANSFER FROM HOSPITAL",
+      "discharge_location": "DIED",
+      "insurance": "Other",
+      "ethnicity": "UNKNOWN",
+      "admittime": "2110-12-24 16:32:00",
+      "dischtime": "2110-12-27 18:50:00",
+      "dod": "2110-12-27"
+    },
+    {
+      "subject_id": 11600106,
+      "hadm_id": 22910121,
+      "gender": "F",
+      "age": 87,
+      "admission_type": "OBSERVATION ADMIT",
+      "admission_location": "EMERGENCY ROOM",
+      "discharge_location": "DIED",
+      "insurance": "Medicare",
+      "ethnicity": "WHITE",
+      "admittime": "2203-03-20 17:44:00",
+      "dischtime": "2203-03-29 15:22:00",
+      "dod": "2203-03-29"
+    },
+    {
+      "subject_id": 10676055,
+      "hadm_id": 28233923,
+      "gender": "M",
+      "age": 23,
+      "admission_type": "EW EMER.",
+      "admission_location": "PACU",
+      "discharge_location": NaN,
+      "insurance": "Other",
+      "ethnicity": "UNKNOWN",
+      "admittime": "2150-12-07 17:00:00",
+      "dischtime": "2150-12-09 16:59:00",
+      "dod": "2150-12-07"
+    },
+    {
+      "subject_id": 10676055,
+      "hadm_id": 26369886,
+      "gender": "M",
+      "age": 23,
+      "admission_type": "OBSERVATION ADMIT",
+      "admission_location": "EMERGENCY ROOM",
+      "discharge_location": "DIED",
+      "insurance": "Other",
+      "ethnicity": "UNKNOWN",
+      "admittime": "2150-12-05 00:34:00",
+      "dischtime": "2150-12-07 16:59:00",
+      "dod": "2150-12-07"
+    },
+    {
+      "subject_id": 13556244,
+      "hadm_id": 20235620,
+      "gender": "F",
+      "age": 40,
+      "admission_type": "URGENT",
+      "admission_location": "TRANSFER FROM HOSPITAL",
+      "discharge_location": "DIED",
+      "insurance": "Medicaid",
+      "ethnicity": "WHITE",
+      "admittime": "2121-05-20 00:13:00",
+      "dischtime": "2121-05-22 17:30:00",
+      "dod": "2121-05-22"
+    },
+    {
+      "subject_id": 11181752,
+      "hadm_id": 22216376,
+      "gender": "M",
+      "age": 57,
+      "admission_type": "OBSERVATION ADMIT",
+      "admission_location": "PHYSICIAN REFERRAL",
+      "discharge_location": "DIED",
+      "insurance": "Other",
+      "ethnicity": "UNKNOWN",
+      "admittime": "2148-08-17 15:51:00",
+      "dischtime": "2148-08-24 12:36:00",
+      "dod": "2148-08-24"
+    },
+    {
+      "subject_id": 11553956,
+      "hadm_id": 21592792,
+      "gender": "F",
+      "age": 64,
+      "admission_type": "OBSERVATION ADMIT",
+      "admission_location": "EMERGENCY ROOM",
+      "discharge_location": "DIED",
+      "insurance": "Medicare",
+      "ethnicity": "BLACK/AFRICAN AMERICAN",
+      "admittime": "2172-05-31 22:09:00",
+      "dischtime": "2172-06-05 09:00:00",
+      "dod": "2172-06-05"
+    },
+    {
+      "subject_id": 12588483,
+      "hadm_id": 21391440,
+      "gender": "M",
+      "age": 67,
+      "admission_type": "EW EMER.",
+      "admission_location": "EMERGENCY ROOM",
+      "discharge_location": "DIED",
+      "insurance": "Other",
+      "ethnicity": "UNKNOWN",
+      "admittime": "2184-08-11 17:47:00",
+      "dischtime": "2184-08-12 12:52:00",
+      "dod": "2184-08-12"
+    },
+    {
+      "subject_id": 12811067,
+      "hadm_id": 29092434,
+      "gender": "M",
+      "age": 59,
+      "admission_type": "EW EMER.",
+      "admission_location": "EMERGENCY ROOM",
+      "discharge_location": "DIED",
+      "insurance": "Other",
+      "ethnicity": "UNKNOWN",
+      "admittime": "2131-03-08 15:18:00",
+      "dischtime": "2131-03-10 17:05:00",
+      "dod": "2131-03-10"
+    },
+    {
+      "subject_id": 10176453,
+      "hadm_id": 22823286,
+      "gender": "M",
+      "age": 36,
+      "admission_type": "EW EMER.",
+      "admission_location": "EMERGENCY ROOM",
+      "discharge_location": "DIED",
+      "insurance": "Other",
+      "ethnicity": "UNKNOWN",
+      "admittime": "2176-04-14 03:45:00",
+      "dischtime": "2176-04-24 20:22:00",
+      "dod": "2176-04-24"
+    },
+    {
+      "subject_id": 18751817,
+      "hadm_id": 28154135,
+      "gender": "M",
+      "age": 50,
+      "admission_type": "EW EMER.",
+      "admission_location": "EMERGENCY ROOM",
+      "discharge_location": "DIED",
+      "insurance": "Medicare",
+      "ethnicity": "BLACK/AFRICAN AMERICAN",
+      "admittime": "2129-01-28 01:38:00",
+      "dischtime": "2129-02-09 06:51:00",
+      "dod": "2129-02-09"
+    }
+  ],
+  "demographics": {
+    "gender_distribution": {
+      "M": 8,
+      "F": 5
+    },
+    "age_stats": {
+      "mean": 50.84615384615385,
+      "median": 50.0,
+      "min": 22.0,
+      "max": 87.0
+    }
+  },
+  "admission_characteristics": {
+    "admission_types": {
+      "EW EMER.": 7,
+      "OBSERVATION ADMIT": 4,
+      "URGENT": 2
+    },
+    "emergency_rate": 0.0,
+    "icu_admission_rate": 69.23076923076923
+  },
+  "los_stats": {
+    "mean": 4.854861111111111,
+    "median": 3.095833333333333,
+    "min": 0.10138888888888889,
+    "max": 12.217361111111112
+  },
+  "comparison_with_normal": {
+    "normal_cases_count": 9337,
+    "age_difference": -17.433700496782855,
+    "emergency_rate_difference": 0.0
+  }
+}

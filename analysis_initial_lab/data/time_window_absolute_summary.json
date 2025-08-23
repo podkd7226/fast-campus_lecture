@@ -1,0 +1,149 @@
+{
+  "analysis_date": "2025-08-20 18:31:34",
+  "total_admissions": 1200,
+  "admission_day_only": {
+    "with_labs": 1053,
+    "without_labs": 147,
+    "coverage_pct": 87.75
+  },
+  "time_window": {
+    "with_labs": 1155,
+    "without_labs": 45,
+    "coverage_pct": 96.25
+  },
+  "improvement": {
+    "additional_admissions": 102,
+    "improvement_pct": 8.5
+  },
+  "data_sources": {
+    "total_records": 20118,
+    "day_minus1": 1065,
+    "day0": 16593,
+    "day_plus1": 2460,
+    "day_minus1_pct": 5.29,
+    "day0_pct": 82.48,
+    "day_plus1_pct": 12.23
+  },
+  "top_improvements": [
+    {
+      "lab_name": "Calcium,_Total",
+      "day0_count": 547,
+      "day0_pct": 45.58333333333333,
+      "window_count": 940,
+      "window_pct": 78.33333333333333,
+      "improved_count": 393,
+      "improved_pct": 32.75,
+      "from_day0": 587,
+      "from_minus1": 26,
+      "from_plus1": 327
+    },
+    {
+      "lab_name": "Basophils",
+      "day0_count": 610,
+      "day0_pct": 50.83333333333333,
+      "window_count": 919,
+      "window_pct": 76.58333333333334,
+      "improved_count": 309,
+      "improved_pct": 25.750000000000014,
+      "from_day0": 778,
+      "from_minus1": 108,
+      "from_plus1": 33
+    },
+    {
+      "lab_name": "Eosinophils",
+      "day0_count": 610,
+      "day0_pct": 50.83333333333333,
+      "window_count": 919,
+      "window_pct": 76.58333333333334,
+      "improved_count": 309,
+      "improved_pct": 25.750000000000014,
+      "from_day0": 778,
+      "from_minus1": 108,
+      "from_plus1": 33
+    },
+    {
+      "lab_name": "PT",
+      "day0_count": 610,
+      "day0_pct": 50.83333333333333,
+      "window_count": 874,
+      "window_pct": 72.83333333333334,
+      "improved_count": 264,
+      "improved_pct": 22.000000000000014,
+      "from_day0": 715,
+      "from_minus1": 45,
+      "from_plus1": 114
+    },
+    {
+      "lab_name": "PTT",
+      "day0_count": 599,
+      "day0_pct": 49.916666666666664,
+      "window_count": 854,
+      "window_pct": 71.16666666666667,
+      "improved_count": 255,
+      "improved_pct": 21.250000000000007,
+      "from_day0": 698,
+      "from_minus1": 45,
+      "from_plus1": 111
+    },
+    {
+      "lab_name": "Bilirubin,_Total",
+      "day0_count": 422,
+      "day0_pct": 35.16666666666667,
+      "window_count": 671,
+      "window_pct": 55.91666666666667,
+      "improved_count": 249,
+      "improved_pct": 20.75,
+      "from_day0": 513,
+      "from_minus1": 51,
+      "from_plus1": 107
+    },
+    {
+      "lab_name": "White_Blood_Cells",
+      "day0_count": 909,
+      "day0_pct": 75.75,
+      "window_count": 1142,
+      "window_pct": 95.16666666666667,
+      "improved_count": 233,
+      "improved_pct": 19.41666666666667,
+      "from_day0": 1015,
+      "from_minus1": 53,
+      "from_plus1": 74
+    },
+    {
+      "lab_name": "RDW",
+      "day0_count": 909,
+      "day0_pct": 75.75,
+      "window_count": 1141,
+      "window_pct": 95.08333333333333,
+      "improved_count": 232,
+      "improved_pct": 19.33333333333333,
+      "from_day0": 1015,
+      "from_minus1": 53,
+      "from_plus1": 73
+    },
+    {
+      "lab_name": "Albumin",
+      "day0_count": 317,
+      "day0_pct": 26.416666666666664,
+      "window_count": 546,
+      "window_pct": 45.5,
+      "improved_count": 229,
+      "improved_pct": 19.083333333333336,
+      "from_day0": 406,
+      "from_minus1": 50,
+      "from_plus1": 90
+    },
+    {
+      "lab_name": "Hemoglobin",
+      "day0_count": 922,
+      "day0_pct": 76.83333333333333,
+      "window_count": 1143,
+      "window_pct": 95.25,
+      "improved_count": 221,
+      "improved_pct": 18.41666666666667,
+      "from_day0": 994,
+      "from_minus1": 57,
+      "from_plus1": 92
+    }
+  ]
+}

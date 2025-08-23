@@ -1,0 +1,785 @@
+{
+  "total_admissions": 1200,
+  "admissions_with_labs": 1155,
+  "admissions_without_labs": 45,
+  "coverage_rate": 96.25,
+  "lab_statistics": {
+    "%_Hemoglobin_A1c": {
+      "count": 94,
+      "missing_count": 1106,
+      "missing_pct": 92.16666666666666,
+      "mean": 6.513829787234042,
+      "std": 1.88026542760403,
+      "min": 3.7,
+      "q1": 5.4,
+      "median": 5.8,
+      "q3": 7.1,
+      "max": 15.2,
+      "day_sources": {
+        "day_minus1": 2,
+        "day0": 43,
+        "day_plus1": 49
+      }
+    },
+    "Albumin": {
+      "count": 546,
+      "missing_count": 654,
+      "missing_pct": 54.50000000000001,
+      "mean": 3.501098901098901,
+      "std": 0.7162073154059458,
+      "min": 1.0,
+      "q1": 3.1,
+      "median": 3.6,
+      "q3": 4.0,
+      "max": 5.4,
+      "day_sources": {
+        "day_minus1": 50,
+        "day0": 406,
+        "day_plus1": 90
+      }
+    },
+    "Basophils": {
+      "count": 919,
+      "missing_count": 281,
+      "missing_pct": 23.416666666666668,
+      "mean": 0.43514689880304674,
+      "std": 0.4222498552644787,
+      "min": 0.0,
+      "q1": 0.2,
+      "median": 0.3,
+      "q3": 0.6,
+      "max": 4.0,
+      "day_sources": {
+        "day_minus1": 108,
+        "day0": 778,
+        "day_plus1": 33
+      }
+    },
+    "Bilirubin,_Direct": {
+      "count": 72,
+      "missing_count": 1128,
+      "missing_pct": 94.0,
+      "mean": 3.447222222222223,
+      "std": 4.933757595004013,
+      "min": 0.0,
+      "q1": 0.4,
+      "median": 1.7,
+      "q3": 4.4750000000000005,
+      "max": 26.1,
+      "day_sources": {
+        "day_minus1": 9,
+        "day0": 39,
+        "day_plus1": 24
+      }
+    },
+    "Bilirubin,_Indirect": {
+      "count": 71,
+      "missing_count": 1129,
+      "missing_pct": 94.08333333333333,
+      "mean": 1.7253521126760563,
+      "std": 1.7987867585728168,
+      "min": 0.0,
+      "q1": 0.5,
+      "median": 1.1,
+      "q3": 2.3,
+      "max": 9.1,
+      "day_sources": {
+        "day_minus1": 9,
+        "day0": 39,
+        "day_plus1": 23
+      }
+    },
+    "Bilirubin,_Total": {
+      "count": 671,
+      "missing_count": 529,
+      "missing_pct": 44.083333333333336,
+      "mean": 1.5502235469448584,
+      "std": 3.5580217265593803,
+      "min": 0.0,
+      "q1": 0.3,
+      "median": 0.5,
+      "q3": 1.1,
+      "max": 34.3,
+      "day_sources": {
+        "day_minus1": 51,
+        "day0": 513,
+        "day_plus1": 107
+      }
+    },
+    "C-Reactive_Protein": {
+      "count": 60,
+      "missing_count": 1140,
+      "missing_pct": 95.0,
+      "mean": 63.769999999999996,
+      "std": 65.5937892367919,
+      "min": 0.2,
+      "q1": 8.35,
+      "median": 41.5,
+      "q3": 102.875,
+      "max": 226.6,
+      "day_sources": {
+        "day_minus1": 4,
+        "day0": 32,
+        "day_plus1": 24
+      }
+    },
+    "Calcium,_Total": {
+      "count": 940,
+      "missing_count": 260,
+      "missing_pct": 21.666666666666668,
+      "mean": 8.781702127659573,
+      "std": 0.8696548448035288,
+      "min": 5.6,
+      "q1": 8.3,
+      "median": 8.8,
+      "q3": 9.2,
+      "max": 15.6,
+      "day_sources": {
+        "day_minus1": 26,
+        "day0": 587,
+        "day_plus1": 327
+      }
+    },
+    "Calculated_Bicarbonate,_Whole_Blood": {
+      "count": 69,
+      "missing_count": 1131,
+      "missing_pct": 94.25,
+      "mean": 22.542028985507248,
+      "std": 5.289401328214015,
+      "min": 8.0,
+      "q1": 21.0,
+      "median": 23.0,
+      "q3": 26.0,
+      "max": 34.0,
+      "day_sources": {
+        "day_minus1": 7,
+        "day0": 59,
+        "day_plus1": 3
+      }
+    },
+    "Calculated_Total_CO2": {
+      "count": 303,
+      "missing_count": 897,
+      "missing_pct": 74.75,
+      "mean": 24.554455445544555,
+      "std": 5.7855871061408655,
+      "min": 6.0,
+      "q1": 21.5,
+      "median": 25.0,
+      "q3": 28.0,
+      "max": 46.0,
+      "day_sources": {
+        "day_minus1": 5,
+        "day0": 231,
+        "day_plus1": 67
+      }
+    },
+    "Chloride,_Whole_Blood": {
+      "count": 146,
+      "missing_count": 1054,
+      "missing_pct": 87.83333333333333,
+      "mean": 102.43835616438356,
+      "std": 6.020622722677763,
+      "min": 75.0,
+      "q1": 99.0,
+      "median": 102.5,
+      "q3": 106.0,
+      "max": 120.0,
+      "day_sources": {
+        "day_minus1": 10,
+        "day0": 116,
+        "day_plus1": 20
+      }
+    },
+    "Creatine_Kinase_CK": {
+      "count": 318,
+      "missing_count": 882,
+      "missing_pct": 73.5,
+      "mean": 666.62893081761,
+      "std": 3122.3845394235204,
+      "min": 15.0,
+      "q1": 52.0,
+      "median": 98.0,
+      "q3": 244.25,
+      "max": 40240.0,
+      "day_sources": {
+        "day_minus1": 12,
+        "day0": 238,
+        "day_plus1": 68
+      }
+    },
+    "Creatinine": {
+      "count": 1126,
+      "missing_count": 74,
+      "missing_pct": 6.166666666666667,
+      "mean": 1.544582593250444,
+      "std": 1.7487473494714445,
+      "min": 0.0,
+      "q1": 0.8,
+      "median": 1.0,
+      "q3": 1.5,
+      "max": 24.7,
+      "day_sources": {
+        "day_minus1": 50,
+        "day0": 998,
+        "day_plus1": 78
+      }
+    },
+    "Creatinine,_Whole_Blood": {
+      "count": 11,
+      "missing_count": 1189,
+      "missing_pct": 99.08333333333333,
+      "mean": 3.072727272727273,
+      "std": 3.7767951782141718,
+      "min": 0.6,
+      "q1": 0.9500000000000001,
+      "median": 1.1,
+      "q3": 2.7,
+      "max": 11.5,
+      "day_sources": {
+        "day_minus1": 0,
+        "day0": 11,
+        "day_plus1": 0
+      }
+    },
+    "D-Dimer": {
+      "count": 22,
+      "missing_count": 1178,
+      "missing_pct": 98.16666666666667,
+      "mean": 3863.681818181818,
+      "std": 4939.4050961085595,
+      "min": 152.0,
+      "q1": 652.75,
+      "median": 2042.0,
+      "q3": 4609.25,
+      "max": 17932.0,
+      "day_sources": {
+        "day_minus1": 2,
+        "day0": 16,
+        "day_plus1": 4
+      }
+    },
+    "Eosinophils": {
+      "count": 919,
+      "missing_count": 281,
+      "missing_pct": 23.416666666666668,
+      "mean": 1.6620239390642,
+      "std": 2.696032070938859,
+      "min": 0.0,
+      "q1": 0.3,
+      "median": 1.0,
+      "q3": 2.3,
+      "max": 50.4,
+      "day_sources": {
+        "day_minus1": 108,
+        "day0": 778,
+        "day_plus1": 33
+      }
+    },
+    "Ferritin": {
+      "count": 84,
+      "missing_count": 1116,
+      "missing_pct": 93.0,
+      "mean": 2890.477380952381,
+      "std": 20548.44389054157,
+      "min": 3.8,
+      "q1": 89.0,
+      "median": 249.5,
+      "q3": 923.0,
+      "max": 188650.0,
+      "day_sources": {
+        "day_minus1": 7,
+        "day0": 40,
+        "day_plus1": 37
+      }
+    },
+    "Folate": {
+      "count": 26,
+      "missing_count": 1174,
+      "missing_pct": 97.83333333333334,
+      "mean": 12.16923076923077,
+      "std": 4.672281603736593,
+      "min": 4.0,
+      "q1": 8.15,
+      "median": 12.7,
+      "q3": 15.275,
+      "max": 20.0,
+      "day_sources": {
+        "day_minus1": 1,
+        "day0": 17,
+        "day_plus1": 8
+      }
+    },
+    "Glucose": {
+      "count": 1110,
+      "missing_count": 90,
+      "missing_pct": 7.5,
+      "mean": 138.15675675675675,
+      "std": 69.83449921582648,
+      "min": 26.0,
+      "q1": 97.25,
+      "median": 116.0,
+      "q3": 154.75,
+      "max": 744.0,
+      "day_sources": {
+        "day_minus1": 53,
+        "day0": 935,
+        "day_plus1": 122
+      }
+    },
+    "Hematocrit": {
+      "count": 1148,
+      "missing_count": 52,
+      "missing_pct": 4.333333333333334,
+      "mean": 34.66463414634146,
+      "std": 6.607177159290277,
+      "min": 10.5,
+      "q1": 30.375,
+      "median": 34.7,
+      "q3": 39.4,
+      "max": 54.3,
+      "day_sources": {
+        "day_minus1": 52,
+        "day0": 1028,
+        "day_plus1": 68
+      }
+    },
+    "Hemoglobin": {
+      "count": 1143,
+      "missing_count": 57,
+      "missing_pct": 4.75,
+      "mean": 11.385389326334208,
+      "std": 2.3537699391031675,
+      "min": 2.8,
+      "q1": 9.8,
+      "median": 11.3,
+      "q3": 13.0,
+      "max": 18.3,
+      "day_sources": {
+        "day_minus1": 57,
+        "day0": 994,
+        "day_plus1": 92
+      }
+    },
+    "Lactate": {
+      "count": 548,
+      "missing_count": 652,
+      "missing_pct": 54.333333333333336,
+      "mean": 2.4837591240875914,
+      "std": 2.394274651796384,
+      "min": 0.5,
+      "q1": 1.3,
+      "median": 1.8,
+      "q3": 2.725,
+      "max": 19.0,
+      "day_sources": {
+        "day_minus1": 38,
+        "day0": 465,
+        "day_plus1": 45
+      }
+    },
+    "NTproBNP": {
+      "count": 145,
+      "missing_count": 1055,
+      "missing_pct": 87.91666666666667,
+      "mean": 7372.565517241379,
+      "std": 11917.738838604895,
+      "min": 10.0,
+      "q1": 641.0,
+      "median": 2573.0,
+      "q3": 8838.0,
+      "max": 66177.0,
+      "day_sources": {
+        "day_minus1": 15,
+        "day0": 118,
+        "day_plus1": 12
+      }
+    },
+    "O2_Flow": {
+      "count": 27,
+      "missing_count": 1173,
+      "missing_pct": 97.75,
+      "mean": 19.97407407407407,
+      "std": 29.675340612296946,
+      "min": 1.0,
+      "q1": 3.0,
+      "median": 4.0,
+      "q3": 15.0,
+      "max": 100.0,
+      "day_sources": {
+        "day_minus1": 0,
+        "day0": 15,
+        "day_plus1": 12
+      }
+    },
+    "Oxygen": {
+      "count": 96,
+      "missing_count": 1104,
+      "missing_pct": 92.0,
+      "mean": 72.13541666666667,
+      "std": 27.329806281851116,
+      "min": 20.0,
+      "q1": 50.0,
+      "median": 75.0,
+      "q3": 100.0,
+      "max": 100.0,
+      "day_sources": {
+        "day_minus1": 2,
+        "day0": 59,
+        "day_plus1": 35
+      }
+    },
+    "PT": {
+      "count": 874,
+      "missing_count": 326,
+      "missing_pct": 27.166666666666668,
+      "mean": 16.7395881006865,
+      "std": 10.227849267171342,
+      "min": 9.8,
+      "q1": 12.1,
+      "median": 13.4,
+      "q3": 16.2,
+      "max": 150.0,
+      "day_sources": {
+        "day_minus1": 45,
+        "day0": 715,
+        "day_plus1": 114
+      }
+    },
+    "PTT": {
+      "count": 854,
+      "missing_count": 346,
+      "missing_pct": 28.833333333333332,
+      "mean": 33.32962529274005,
+      "std": 12.997653340372601,
+      "min": 18.3,
+      "q1": 27.0,
+      "median": 30.2,
+      "q3": 35.1,
+      "max": 150.0,
+      "day_sources": {
+        "day_minus1": 45,
+        "day0": 698,
+        "day_plus1": 111
+      }
+    },
+    "Potassium": {
+      "count": 1114,
+      "missing_count": 86,
+      "missing_pct": 7.166666666666667,
+      "mean": 4.29443447037702,
+      "std": 0.7625355477353509,
+      "min": 2.0,
+      "q1": 3.8,
+      "median": 4.2,
+      "q3": 4.6,
+      "max": 9.4,
+      "day_sources": {
+        "day_minus1": 45,
+        "day0": 986,
+        "day_plus1": 83
+      }
+    },
+    "RDW": {
+      "count": 1141,
+      "missing_count": 59,
+      "missing_pct": 4.916666666666666,
+      "mean": 15.219719544259423,
+      "std": 2.4389935928240947,
+      "min": 11.4,
+      "q1": 13.5,
+      "median": 14.6,
+      "q3": 16.4,
+      "max": 29.1,
+      "day_sources": {
+        "day_minus1": 53,
+        "day0": 1015,
+        "day_plus1": 73
+      }
+    },
+    "Reticulocyte_Count,_Absolute": {
+      "count": 29,
+      "missing_count": 1171,
+      "missing_pct": 97.58333333333333,
+      "mean": 0.09482758620689655,
+      "std": 0.07395078912237962,
+      "min": 0.0,
+      "q1": 0.04,
+      "median": 0.07,
+      "q3": 0.13,
+      "max": 0.3,
+      "day_sources": {
+        "day_minus1": 0,
+        "day0": 18,
+        "day_plus1": 11
+      }
+    },
+    "Reticulocyte_Count,_Automated": {
+      "count": 46,
+      "missing_count": 1154,
+      "missing_pct": 96.16666666666667,
+      "mean": 3.1586956521739125,
+      "std": 3.0820322362548396,
+      "min": 0.1,
+      "q1": 1.35,
+      "median": 2.2,
+      "q3": 3.6750000000000003,
+      "max": 15.7,
+      "day_sources": {
+        "day_minus1": 2,
+        "day0": 26,
+        "day_plus1": 18
+      }
+    },
+    "Reticulocyte_Count,_Manual": {
+      "count": 6,
+      "missing_count": 1194,
+      "missing_pct": 99.5,
+      "mean": 3.0999999999999996,
+      "std": 1.8601075237738274,
+      "min": 1.3,
+      "q1": 1.925,
+      "median": 2.3,
+      "q3": 4.55,
+      "max": 5.6,
+      "day_sources": {
+        "day_minus1": 0,
+        "day0": 5,
+        "day_plus1": 1
+      }
+    },
+    "Rheumatoid_Factor": {
+      "count": 6,
+      "missing_count": 1194,
+      "missing_pct": 99.5,
+      "mean": 67.33333333333333,
+      "std": 143.8856027080773,
+      "min": 5.0,
+      "q1": 8.0,
+      "median": 9.0,
+      "q3": 11.5,
+      "max": 361.0,
+      "day_sources": {
+        "day_minus1": 1,
+        "day0": 1,
+        "day_plus1": 4
+      }
+    },
+    "Sodium": {
+      "count": 1112,
+      "missing_count": 88,
+      "missing_pct": 7.333333333333333,
+      "mean": 138.01258992805757,
+      "std": 4.681370834509428,
+      "min": 120.0,
+      "q1": 136.0,
+      "median": 138.0,
+      "q3": 141.0,
+      "max": 164.0,
+      "day_sources": {
+        "day_minus1": 45,
+        "day0": 980,
+        "day_plus1": 87
+      }
+    },
+    "Thrombin": {
+      "count": 1,
+      "missing_count": 1199,
+      "missing_pct": 99.91666666666667,
+      "mean": 150.0,
+      "std": NaN,
+      "min": 150.0,
+      "q1": 150.0,
+      "median": 150.0,
+      "q3": 150.0,
+      "max": 150.0,
+      "day_sources": {
+        "day_minus1": 0,
+        "day0": 1,
+        "day_plus1": 0
+      }
+    },
+    "Tidal_Volume": {
+      "count": 81,
+      "missing_count": 1119,
+      "missing_pct": 93.25,
+      "mean": 462.22222222222223,
+      "std": 94.57972827197167,
+      "min": 100.0,
+      "q1": 400.0,
+      "median": 460.0,
+      "q3": 500.0,
+      "max": 786.0,
+      "day_sources": {
+        "day_minus1": 2,
+        "day0": 51,
+        "day_plus1": 28
+      }
+    },
+    "Triglycerides": {
+      "count": 84,
+      "missing_count": 1116,
+      "missing_pct": 93.0,
+      "mean": 157.91666666666666,
+      "std": 180.13523757238906,
+      "min": 45.0,
+      "q1": 74.0,
+      "median": 111.0,
+      "q3": 167.5,
+      "max": 1188.0,
+      "day_sources": {
+        "day_minus1": 4,
+        "day0": 33,
+        "day_plus1": 47
+      }
+    },
+    "Triiodothyronine_T3": {
+      "count": 5,
+      "missing_count": 1195,
+      "missing_pct": 99.58333333333333,
+      "mean": 138.0,
+      "std": 136.48443134658254,
+      "min": 58.0,
+      "q1": 64.0,
+      "median": 84.0,
+      "q3": 104.0,
+      "max": 380.0,
+      "day_sources": {
+        "day_minus1": 0,
+        "day0": 3,
+        "day_plus1": 2
+      }
+    },
+    "Troponin_T": {
+      "count": 188,
+      "missing_count": 1012,
+      "missing_pct": 84.33333333333334,
+      "mean": 0.3872340425531914,
+      "std": 0.9241818515118029,
+      "min": 0.01,
+      "q1": 0.03,
+      "median": 0.065,
+      "q3": 0.2925,
+      "max": 7.82,
+      "day_sources": {
+        "day_minus1": 4,
+        "day0": 165,
+        "day_plus1": 19
+      }
+    },
+    "Urea_Nitrogen": {
+      "count": 1122,
+      "missing_count": 78,
+      "missing_pct": 6.5,
+      "mean": 26.741532976827095,
+      "std": 21.637699708466133,
+      "min": 2.0,
+      "q1": 13.0,
+      "median": 19.0,
+      "q3": 31.75,
+      "max": 192.0,
+      "day_sources": {
+        "day_minus1": 49,
+        "day0": 996,
+        "day_plus1": 77
+      }
+    },
+    "WBC_Count": {
+      "count": 4,
+      "missing_count": 1196,
+      "missing_pct": 99.66666666666667,
+      "mean": 8.7,
+      "std": 5.936890319575281,
+      "min": 5.5,
+      "q1": 5.65,
+      "median": 5.85,
+      "q3": 8.9,
+      "max": 17.6,
+      "day_sources": {
+        "day_minus1": 1,
+        "day0": 1,
+        "day_plus1": 2
+      }
+    },
+    "White_Blood_Cells": {
+      "count": 1142,
+      "missing_count": 58,
+      "missing_pct": 4.833333333333333,
+      "mean": 10.06768826619965,
+      "std": 7.769934510253099,
+      "min": 0.1,
+      "q1": 5.9,
+      "median": 8.55,
+      "q3": 12.1,
+      "max": 134.6,
+      "day_sources": {
+        "day_minus1": 53,
+        "day0": 1015,
+        "day_plus1": 74
+      }
+    },
+    "pCO2": {
+      "count": 303,
+      "missing_count": 897,
+      "missing_pct": 74.75,
+      "mean": 42.442244224422446,
+      "std": 13.57768173527408,
+      "min": 19.0,
+      "q1": 35.0,
+      "median": 41.0,
+      "q3": 47.0,
+      "max": 162.0,
+      "day_sources": {
+        "day_minus1": 5,
+        "day0": 231,
+        "day_plus1": 67
+      }
+    },
+    "pH": {
+      "count": 326,
+      "missing_count": 874,
+      "missing_pct": 72.83333333333334,
+      "mean": 7.3619938650306755,
+      "std": 0.10074803281500092,
+      "min": 6.93,
+      "q1": 7.32,
+      "median": 7.38,
+      "q3": 7.43,
+      "max": 7.64,
+      "day_sources": {
+        "day_minus1": 5,
+        "day0": 250,
+        "day_plus1": 71
+      }
+    },
+    "pO2": {
+      "count": 303,
+      "missing_count": 897,
+      "missing_pct": 74.75,
+      "mean": 147.1914191419142,
+      "std": 125.28020115045014,
+      "min": 18.0,
+      "q1": 62.0,
+      "median": 92.0,
+      "q3": 198.0,
+      "max": 537.0,
+      "day_sources": {
+        "day_minus1": 5,
+        "day0": 231,
+        "day_plus1": 67
+      }
+    }
+  },
+  "time_window_effect": {
+    "total_labs": 20118,
+    "day_minus1": 1065,
+    "day0": 16593,
+    "day_plus1": 2460,
+    "day_minus1_pct": 5.2937667760214735,
+    "day0_pct": 82.4783775723233,
+    "day_plus1_pct": 12.227855651655235
+  },
+  "mortality_rate": 25.0,
+  "survived_count": 900,
+  "died_count": 300
+}

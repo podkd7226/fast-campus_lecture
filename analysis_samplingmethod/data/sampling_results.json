@@ -1,0 +1,10 @@
+{
+  "sampling_date": "2025-08-19 00:17:19",
+  "random_state": 42,
+  "total_samples": 1200,
+  "in_hospital_death": 300,
+  "post_hospital_death": 300,
+  "survived": 600,
+  "unique_patients": 1171,
+  "unique_admissions": 1200
+}

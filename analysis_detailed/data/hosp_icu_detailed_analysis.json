@@ -1,0 +1,175 @@
+{
+  "diagnoses": {
+    "total_diagnoses": 10000,
+    "unique_patients": 1344,
+    "unique_admissions": 1359,
+    "unique_icd_codes": 1717,
+    "avg_diagnoses_per_admission": 7.358351729212656,
+    "top_diagnoses": {
+      "4019": 367,
+      "V270": 302,
+      "53081": 160,
+      "2724": 156,
+      "25000": 147,
+      "42731": 128,
+      "41401": 124,
+      "4280": 114,
+      "5849": 109,
+      "2449": 104
+    }
+  },
+  "labevents": {
+    "total_lab_tests": 10000,
+    "unique_patients": 35,
+    "unique_lab_items": 166,
+    "null_values_percentage": 0.04,
+    "abnormal_flags": {
+      "abnormal": 3580
+    }
+  },
+  "prescriptions": {
+    "total_prescriptions": 10000,
+    "unique_patients": 94,
+    "unique_drugs": 546,
+    "unique_routes": 35,
+    "top_drugs": {
+      "Insulin": 616,
+      "Sodium Chloride 0.9%  Flush": 347,
+      "0.9% Sodium Chloride": 324,
+      "Potassium Chloride": 273,
+      "Acetaminophen": 262,
+      "Furosemide": 232,
+      "Heparin": 221,
+      "Docusate Sodium": 192,
+      "Senna": 190,
+      "Iso-Osmotic Dextrose": 160
+    },
+    "top_routes": {
+      "IV": 3566,
+      "PO/NG": 2413,
+      "PO": 2008,
+      "SC": 879,
+      "IM": 213
+    }
+  },
+  "icustays": {
+    "total_icu_stays": 10000,
+    "unique_patients": 7072,
+    "unique_admissions": 9119,
+    "avg_los_hours": 84.75018330555555,
+    "median_los_hours": 46.59027777777778,
+    "first_careunit_distribution": {
+      "Medical Intensive Care Unit (MICU)": 2121,
+      "Medical/Surgical Intensive Care Unit (MICU/SICU)": 1805,
+      "Surgical Intensive Care Unit (SICU)": 1544,
+      "Cardiac Vascular Intensive Care Unit (CVICU)": 1496,
+      "Trauma SICU (TSICU)": 1237,
+      "Coronary Care Unit (CCU)": 1187,
+      "Neuro Surgical Intensive Care Unit (Neuro SICU)": 249,
+      "Neuro Intermediate": 230,
+      "Neuro Stepdown": 131
+    },
+    "last_careunit_distribution": {
+      "Medical Intensive Care Unit (MICU)": 2271,
+      "Medical/Surgical Intensive Care Unit (MICU/SICU)": 1736,
+      "Surgical Intensive Care Unit (SICU)": 1524,
+      "Cardiac Vascular Intensive Care Unit (CVICU)": 1483,
+      "Coronary Care Unit (CCU)": 1182,
+      "Trauma SICU (TSICU)": 1171,
+      "Neuro Intermediate": 298,
+      "Neuro Stepdown": 173,
+      "Neuro Surgical Intensive Care Unit (Neuro SICU)": 162
+    }
+  },
+  "chartevents": {
+    "total_chart_records": 10000,
+    "unique_patients": 9,
+    "unique_items": 291,
+    "unique_admissions": 10,
+    "value_types": {
+      "mmHg": 2506,
+      "insp/min": 947,
+      "%": 872,
+      "bpm": 745,
+      "\u00b0C": 450,
+      "mEq/L": 363,
+      "cmH2O": 354,
+      "mL": 348,
+      "mg/dL": 317,
+      "L/min": 274
+    }
+  },
+  "microbiology": {
+    "total_tests": 10000,
+    "unique_patients": 794,
+    "unique_specimens": 41,
+    "unique_organisms": 119,
+    "top_specimens": {
+      "URINE": 5928,
+      "BLOOD CULTURE": 1549,
+      "SWAB": 1070,
+      "TISSUE": 333,
+      "ABSCESS": 284
+    },
+    "top_organisms": {
+      "ESCHERICHIA COLI": 3889,
+      "STAPH AUREUS COAG +": 1374,
+      "KLEBSIELLA PNEUMONIAE": 1047,
+      "STAPHYLOCOCCUS, COAGULASE NEGATIVE": 596,
+      "PROTEUS MIRABILIS": 363,
+      "CANCELLED": 362,
+      "ENTEROCOCCUS SP.": 260,
+      "PSEUDOMONAS AERUGINOSA": 252,
+      "YEAST": 182,
+      "GRAM POSITIVE BACTERIA": 142
+    }
+  },
+  "procedures": {
+    "total_procedures": 10000,
+    "unique_patients": 2640,
+    "unique_admissions": 3440,
+    "unique_procedure_codes": 914,
+    "avg_procedures_per_admission": 2.9069767441860463,
+    "top_procedures": {
+      "8938": 535,
+      "3893": 407,
+      "9955": 391,
+      "8952": 345,
+      "8744": 302,
+      "9904": 265,
+      "3899": 247,
+      "640": 176,
+      "966": 161,
+      "9604": 146
+    }
+  },
+  "inputevents": {
+    "total_inputs": 10000,
+    "unique_patients": 116,
+    "unique_items": 125,
+    "unique_admissions": 123,
+    "order_category": {
+      "01-Drips": 2914,
+      "14-Oral/Gastric Intake": 1594,
+      "08-Antibiotics (IV)": 1458,
+      "02-Fluids (Crystalloids)": 1396,
+      "05-Med Bolus": 737,
+      "13-Enteral Nutrition": 392,
+      "03-IV Fluid Bolus": 384,
+      "11-Prophylaxis (Non IV)": 361,
+      "10-Prophylaxis (IV)": 272,
+      "06-Insulin (Non IV)": 244,
+      "07-Blood Products": 96,
+      "16-Pre Admission/Non-ICU": 55,
+      "09-Antibiotics (Non IV)": 49,
+      "04-Fluids (Colloids)": 26,
+      "12-Parenteral Nutrition": 22
+    }
+  },
+  "outputevents": {
+    "total_outputs": 10000,
+    "unique_patients": 150,
+    "unique_items": 41,
+    "unique_admissions": 184
+  }
+}

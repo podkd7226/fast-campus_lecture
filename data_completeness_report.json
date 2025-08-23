@@ -1,0 +1,54 @@
+{
+  "timestamp": "2025-08-20T19:49:18.855946",
+  "input_file": "analysis_initial_lab/data/initial_labs_long.csv",
+  "output_file": "analysis_initial_lab/data/admission_day_labs.csv",
+  "checks": {
+    "row_count": {
+      "input": 14550,
+      "output": 7326,
+      "difference": -7224,
+      "ratio": 0.5035051546391752
+    },
+    "key_completeness": {
+      "input_unique": 1060,
+      "output_unique": 427,
+      "missing": 633,
+      "new": 0
+    },
+    "null_patterns": {},
+    "distributions": {
+      "ref_range_upper": {
+        "input_mean": 37.810698290896404,
+        "output_mean": 57.37815997815998,
+        "change_pct": 51.75112487138273
+      },
+      "valuenum": {
+        "input_mean": 92.6071898219543,
+        "output_mean": 46.38117566643883,
+        "change_pct": 49.916225991080346
+      },
+      "ref_range_lower": {
+        "input_mean": 23.324162539239623,
+        "output_mean": 36.08906633906634,
+        "change_pct": 54.728240631797874
+      }
+    },
+    "hadm_id_null": {
+      "input": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "output": {
+        "count": 20,
+        "pct": 0.273000273000273
+      }
+    }
+  },
+  "warnings": [
+    "\ub370\uc774\ud130 \uc190\uc2e4: 49.6%"
+  ],
+  "errors": [
+    "\ud0a4 \ub204\ub77d: 633\uac1c"
+  ],
+  "status": "\u274c FAIL"
+}

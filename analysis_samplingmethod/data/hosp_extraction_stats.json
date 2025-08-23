@@ -1,0 +1,16 @@
+{
+  "extraction_date": "2025-08-19 00:35:46",
+  "hadm_ids": 1200,
+  "subject_ids": 1171,
+  "dictionary_tables": 4,
+  "patient_tables": {
+    "diagnoses_icd": 17471,
+    "drgcodes": 1897,
+    "prescriptions": 73200,
+    "procedures_icd": 2831,
+    "services": 1376,
+    "labevents": 334442,
+    "microbiologyevents": 8777
+  },
+  "total_rows": 439994
+}

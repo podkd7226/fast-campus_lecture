@@ -1,0 +1,98 @@
+{
+  "coverage": {
+    "21_labs": {
+      "count": 427,
+      "pct": 35.583333333333336
+    },
+    "98_labs": {
+      "count": 1053,
+      "pct": 87.75
+    },
+    "difference": 626,
+    "missing_in_21": 773
+  },
+  "mortality": {
+    "21_labs": {
+      "rate": 36.53395784543326,
+      "died": 156
+    },
+    "98_labs": {
+      "rate": 25.0,
+      "died": 300
+    },
+    "difference": 11.533957845433257
+  },
+  "missing_mortality": 18.628719275549805,
+  "lab_availability": {
+    "Hematocrit": {
+      "21_labs": {
+        "count": 383,
+        "pct": 89.69555035128806
+      },
+      "98_labs": {
+        "count": 936,
+        "pct": 78.0
+      }
+    },
+    "Hemoglobin": {
+      "21_labs": {
+        "count": 360,
+        "pct": 84.30913348946136
+      },
+      "98_labs": {
+        "count": 922,
+        "pct": 76.83333333333333
+      }
+    },
+    "White_Blood_Cells": {
+      "21_labs": {
+        "count": 357,
+        "pct": 83.60655737704919
+      },
+      "98_labs": {
+        "count": 909,
+        "pct": 75.75
+      }
+    },
+    "Creatinine": {
+      "21_labs": {
+        "count": 378,
+        "pct": 88.52459016393442
+      },
+      "98_labs": {
+        "count": 913,
+        "pct": 76.08333333333334
+      }
+    },
+    "Glucose": {
+      "21_labs": {
+        "count": 371,
+        "pct": 86.88524590163934
+      },
+      "98_labs": {
+        "count": 889,
+        "pct": 74.08333333333333
+      }
+    },
+    "Sodium": {
+      "21_labs": {
+        "count": 384,
+        "pct": 89.92974238875878
+      },
+      "98_labs": {
+        "count": 900,
+        "pct": 75.0
+      }
+    },
+    "Potassium": {
+      "21_labs": {
+        "count": 392,
+        "pct": 91.80327868852459
+      },
+      "98_labs": {
+        "count": 908,
+        "pct": 75.66666666666667
+      }
+    }
+  }
+}

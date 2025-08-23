@@ -1,0 +1,112 @@
+{
+  "analysis_date": "2025-08-18 23:33:21",
+  "basic_stats": {
+    "total_patients": 382278,
+    "total_admissions": 523740,
+    "avg_admissions_per_patient": 1.37,
+    "gender_distribution": {
+      "F": 199707,
+      "M": 182571
+    }
+  },
+  "mortality": {
+    "hospital_deaths": 9350,
+    "hospital_mortality_rate": 1.79,
+    "total_deaths": 9509,
+    "overall_mortality_rate": 2.49
+  },
+  "age_analysis": {
+    "age_distribution": [
+      {
+        "age_group": "0-17",
+        "count": 4166,
+        "percentage": 1.09,
+        "deaths": 1,
+        "mortality_rate": 0.02
+      },
+      {
+        "age_group": "18-29",
+        "count": 82368,
+        "percentage": 21.55,
+        "deaths": 156,
+        "mortality_rate": 0.19
+      },
+      {
+        "age_group": "30-39",
+        "count": 43336,
+        "percentage": 11.34,
+        "deaths": 257,
+        "mortality_rate": 0.59
+      },
+      {
+        "age_group": "40-49",
+        "count": 41892,
+        "percentage": 10.96,
+        "deaths": 624,
+        "mortality_rate": 1.49
+      },
+      {
+        "age_group": "50-59",
+        "count": 48838,
+        "percentage": 12.78,
+        "deaths": 1360,
+        "mortality_rate": 2.78
+      },
+      {
+        "age_group": "60-69",
+        "count": 43118,
+        "percentage": 11.28,
+        "deaths": 1988,
+        "mortality_rate": 4.61
+      },
+      {
+        "age_group": "70-79",
+        "count": 30883,
+        "percentage": 8.08,
+        "deaths": 2217,
+        "mortality_rate": 7.18
+      },
+      {
+        "age_group": "80-89",
+        "count": 19584,
+        "percentage": 5.12,
+        "deaths": 1936,
+        "mortality_rate": 9.89
+      },
+      {
+        "age_group": "90+",
+        "count": 7221,
+        "percentage": 1.89,
+        "deaths": 757,
+        "mortality_rate": 10.48
+      }
+    ],
+    "mean_age": 40.9,
+    "median_age": 41.0
+  },
+  "sampling_recommendations": [
+    {
+      "strategy": "Statistical Representative Sample",
+      "sample_size": 384,
+      "confidence_level": "95%",
+      "margin_error": "5%"
+    },
+    {
+      "strategy": "Age-Stratified Sampling",
+      "sample_size": 460,
+      "method": "Proportional to age distribution"
+    },
+    {
+      "strategy": "Mortality-Balanced Sampling",
+      "sample_size": 576,
+      "method": "50% survived, 50% deceased"
+    },
+    {
+      "strategy": "Purpose-based Sampling",
+      "eda_sample": "1,000 - 5,000",
+      "model_development": "10,000 - 20,000",
+      "validation_study": "30,000 - 50,000",
+      "full_dataset": 382278
+    }
+  ]
+}
