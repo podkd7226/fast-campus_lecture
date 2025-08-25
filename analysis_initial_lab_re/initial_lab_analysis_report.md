@@ -181,6 +181,66 @@
 
 ---
 
+## 📊 Missing Pattern 시각화
+
+분석 스크립트: `scripts/analysis/visualize_missing_patterns.py:1-303`
+
+### 1. Missing Pattern 히트맵
+
+100명의 무작위 샘플 입원 환자를 대상으로 70개 검사 항목의 missing pattern을 시각화했습니다.
+
+#### 히트맵 1: 결측률이 낮은 검사 항목 (24개)
+![Missing Pattern 히트맵 1](./figures/missing_pattern_heatmap_1.png)
+*그림 1: 결측률이 낮은 검사 항목들의 Missing Pattern*
+- 평균 결측률: 29.2%
+- 주요 검사: Hematocrit, Hemoglobin, WBC 등 기본 혈액검사
+- 생성 스크립트: `scripts/analysis/visualize_missing_patterns.py:102-146`
+
+#### 히트맵 2: 중간 결측률 검사 항목 (23개)
+![Missing Pattern 히트맵 2](./figures/missing_pattern_heatmap_2.png)
+*그림 2: 중간 수준 결측률의 검사 항목들*
+- 평균 결측률: 80.4%
+- 주요 검사: 특수 혈액검사 및 대사 지표
+- 생성 스크립트: `scripts/analysis/visualize_missing_patterns.py:102-146`
+
+#### 히트맵 3: 결측률이 높은 검사 항목 (23개)
+![Missing Pattern 히트맵 3](./figures/missing_pattern_heatmap_3.png)
+*그림 3: 결측률이 높은 검사 항목들*
+- 평균 결측률: 99.9%
+- 주요 검사: 특수 검사, 드물게 시행되는 검사
+- 생성 스크립트: `scripts/analysis/visualize_missing_patterns.py:102-146`
+
+### 2. Missing Value 종합 통계
+
+![Missing Value 종합 통계](./figures/missing_summary_stats.png)
+*그림 4: Missing Value 종합 분석 통계*
+- 생성 스크립트: `scripts/analysis/visualize_missing_patterns.py:150-250`
+
+#### 주요 통계
+- **전체 평균 결측률**: 76.6%
+- **완전 데이터 항목**: 0개
+- **90% 이상 결측**: 30개 항목
+- **10% 미만 결측**: 8개 항목
+
+#### 입원별 검사 수 분포 (100명 샘플)
+- **평균**: 14.6개 검사
+- **중앙값**: 14개
+- **범위**: 0-29개
+
+### 3. Missing Pattern 분석 결과
+
+#### 3.1 패턴 특징
+- **계층적 구조**: 기본 검사는 대부분 시행, 특수 검사는 선택적
+- **그룹화 경향**: 유사한 검사들이 함께 시행되는 경향
+- **환자별 차이**: 일부 환자는 매우 포괄적인 검사, 일부는 최소 검사만 시행
+
+#### 3.2 임상적 의미
+- 기본 혈액검사(CBC, Chemistry)는 90% 이상 시행
+- 특수 검사는 임상적 필요에 따라 선택적 시행
+- Missing pattern이 환자의 중증도나 진단과 관련 있을 가능성
+
+---
+
 ## 📝 결론
 
 본 분석을 통해 MIMIC-IV 샘플 데이터에서 87개 주요 혈액검사 항목을 성공적으로 추출했습니다. 96.2%의 높은 커버리지를 보이며, itemid 기반 처리로 데이터 무결성을 보장했습니다. 
