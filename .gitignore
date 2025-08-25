@@ -1,3 +1,5 @@
 /dataset2/
 /processed_data/
-/unofficial/
+**/unofficial/
+**/.DS_Store
+.DS_Store
