@@ -1,0 +1,43 @@
+itemid,unique_label,original_label,clean_label,category,fluid
+50854,Absolute_A1c,Absolute A1c,Absolute_A1c,Chemistry,Blood
+50862,Albumin,Albumin,Albumin,Chemistry,Blood
+51146,Basophils,Basophils,Basophils,Hematology,Blood
+50883,Bilirubin__Direct,"Bilirubin, Direct",Bilirubin__Direct,Chemistry,Blood
+50884,Bilirubin__Indirect,"Bilirubin, Indirect",Bilirubin__Indirect,Chemistry,Blood
+50885,Bilirubin__Total,"Bilirubin, Total",Bilirubin__Total,Chemistry,Blood
+50893,Calcium__Total,"Calcium, Total",Calcium__Total,Chemistry,Blood
+50803,Calculated_Bicarbonate__Whole_Blood,"Calculated Bicarbonate, Whole Blood",Calculated_Bicarbonate__Whole_Blood,Blood Gas,Blood
+50804,Calculated_Total_CO2,Calculated Total CO2,Calculated_Total_CO2,Blood Gas,Blood
+50806,Chloride__Whole_Blood,"Chloride, Whole Blood",Chloride__Whole_Blood,Blood Gas,Blood
+50889,C-Reactive_Protein,C-Reactive Protein,C-Reactive_Protein,Chemistry,Blood
+50910,Creatine_Kinase_CK,Creatine Kinase (CK),Creatine_Kinase_CK,Chemistry,Blood
+52024,Creatinine__Whole_Blood,"Creatinine, Whole Blood",Creatinine__Whole_Blood,Blood Gas,Blood
+50915,D-Dimer,D-Dimer,D-Dimer,Chemistry,Blood
+51199,Eosinophil_Count,Eosinophil Count,Eosinophil_Count,Hematology,Blood
+51200,Eosinophils,Eosinophils,Eosinophils,Hematology,Blood
+52026,Estimated_GFR_MDRD_equation,Estimated GFR (MDRD equation),Estimated_GFR_MDRD_equation,Blood Gas,Blood
+50924,Ferritin,Ferritin,Ferritin,Chemistry,Blood
+50925,Folate,Folate,Folate,Chemistry,Blood
+50852,%_Hemoglobin_A1c,% Hemoglobin A1c,%_Hemoglobin_A1c,Chemistry,Blood
+50813,Lactate,Lactate,Lactate,Blood Gas,Blood
+50963,NTproBNP,NTproBNP,NTproBNP,Chemistry,Blood
+50815,O2_Flow,O2 Flow,O2_Flow,Blood Gas,Blood
+50816,Oxygen,Oxygen,Oxygen,Blood Gas,Blood
+50818,pCO2,pCO2,pCO2,Blood Gas,Blood
+50821,pO2,pO2,pO2,Blood Gas,Blood
+51274,PT,PT,PT,Hematology,Blood
+51275,PTT,PTT,PTT,Hematology,Blood
+51277,RDW,RDW,RDW,Hematology,Blood
+51282,Reticulocyte_Count__Absolute,"Reticulocyte Count, Absolute",Reticulocyte_Count__Absolute,Hematology,Blood
+51283,Reticulocyte_Count__Automated,"Reticulocyte Count, Automated",Reticulocyte_Count__Automated,Hematology,Blood
+51284,Reticulocyte_Count__Manual,"Reticulocyte Count, Manual",Reticulocyte_Count__Manual,Hematology,Blood
+50980,Rheumatoid_Factor,Rheumatoid Factor,Rheumatoid_Factor,Chemistry,Blood
+51297,Thrombin,Thrombin,Thrombin,Hematology,Blood
+50826,Tidal_Volume,Tidal Volume,Tidal_Volume,Blood Gas,Blood
+51000,Triglycerides,Triglycerides,Triglycerides,Chemistry,Blood
+51001,Triiodothyronine_T3,Triiodothyronine (T3),Triiodothyronine_T3,Chemistry,Blood
+52642,Troponin_I,Troponin I,Troponin_I,Chemistry,Blood
+51003,Troponin_T,Troponin T,Troponin_T,Chemistry,Blood
+50827,Ventilation_Rate,Ventilation Rate,Ventilation_Rate,Blood Gas,Blood
+50828,Ventilator,Ventilator,Ventilator,Blood Gas,Blood
+51300,WBC_Count,WBC Count,WBC_Count,Hematology,Blood

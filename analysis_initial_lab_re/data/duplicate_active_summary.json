@@ -1,0 +1,16 @@
+{
+  "duplicate_active_labels": 3,
+  "total_affected_itemids": 6,
+  "total_data_points": 2898,
+  "labels_with_duplicates": [
+    "Glucose",
+    "Hemoglobin",
+    "pH"
+  ],
+  "findings": [
+    "대부분 같은 검사의 다른 측정 방법 또는 장비",
+    "일부는 시간대별로 itemid 전환",
+    "동일 환자에서 중복 측정되는 경우도 존재",
+    "값 범위는 대체로 유사하나 일부 차이 존재"
+  ]
+}

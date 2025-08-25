@@ -1,0 +1,457 @@
+{
+  "extraction_date": "2025-08-25 00:07:21",
+  "method": "all_itemids_individual",
+  "total_admissions": 1200,
+  "lab_items": {
+    "total_inclusion_1": 87,
+    "total_columns": 87,
+    "columns_with_data": 48,
+    "empty_columns": 39
+  },
+  "data_coverage": {
+    "admissions_with_labs": 1155,
+    "coverage_rate": 96.25
+  },
+  "source_distribution": {
+    "Day+1": 2460,
+    "Day-1": 1065,
+    "Day0": 16593
+  },
+  "column_statistics": {
+    "Absolute_A1c_50854": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "Absolute_Lymphocyte_Count_51536": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "Absolute_Other_WBC_51538": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "Albumin_51542": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "Albumin_50862": {
+      "non_null_count": 546,
+      "null_count": 654,
+      "coverage_rate": 45.5
+    },
+    "Basophils_51146": {
+      "non_null_count": 919,
+      "null_count": 281,
+      "coverage_rate": 76.58333333333334
+    },
+    "Bilirubin__Direct_50883": {
+      "non_null_count": 72,
+      "null_count": 1128,
+      "coverage_rate": 6.0
+    },
+    "Bilirubin__Indirect_50884": {
+      "non_null_count": 71,
+      "null_count": 1129,
+      "coverage_rate": 5.916666666666667
+    },
+    "Bilirubin__Total_50885": {
+      "non_null_count": 671,
+      "null_count": 529,
+      "coverage_rate": 55.91666666666667
+    },
+    "Bleeding_Time_51149": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "Bleeding_Time_52786": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "CA_19-9_51579": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "Calcium__Total_50893": {
+      "non_null_count": 940,
+      "null_count": 260,
+      "coverage_rate": 78.33333333333333
+    },
+    "Calculated_Bicarbonate__Whole_Blood_50803": {
+      "non_null_count": 69,
+      "null_count": 1131,
+      "coverage_rate": 5.75
+    },
+    "Calculated_Total_CO2_50804": {
+      "non_null_count": 303,
+      "null_count": 897,
+      "coverage_rate": 25.25
+    },
+    "Chloride__Whole_Blood_50806": {
+      "non_null_count": 146,
+      "null_count": 1054,
+      "coverage_rate": 12.166666666666668
+    },
+    "Chloride__Whole_Blood_52434": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "COVID-19_51853": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "C-Reactive_Protein_50889": {
+      "non_null_count": 60,
+      "null_count": 1140,
+      "coverage_rate": 5.0
+    },
+    "Creatine_Kinase_CK_50910": {
+      "non_null_count": 318,
+      "null_count": 882,
+      "coverage_rate": 26.5
+    },
+    "Creatinine_50912": {
+      "non_null_count": 1126,
+      "null_count": 74,
+      "coverage_rate": 93.83333333333333
+    },
+    "Creatinine_52546": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "Creatinine__Whole_Blood_52024": {
+      "non_null_count": 11,
+      "null_count": 1189,
+      "coverage_rate": 0.9166666666666666
+    },
+    "D-Dimer_50915": {
+      "non_null_count": 22,
+      "null_count": 1178,
+      "coverage_rate": 1.8333333333333333
+    },
+    "Eosinophil_Count_51199": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "Eosinophils_51200": {
+      "non_null_count": 919,
+      "null_count": 281,
+      "coverage_rate": 76.58333333333334
+    },
+    "Estimated_GFR_MDRD_equation_52026": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "Ferritin_50924": {
+      "non_null_count": 84,
+      "null_count": 1116,
+      "coverage_rate": 7.000000000000001
+    },
+    "Folate_50925": {
+      "non_null_count": 26,
+      "null_count": 1174,
+      "coverage_rate": 2.166666666666667
+    },
+    "Folate_52562": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "Glucose_50809": {
+      "non_null_count": 181,
+      "null_count": 1019,
+      "coverage_rate": 15.083333333333334
+    },
+    "Glucose_50931": {
+      "non_null_count": 1099,
+      "null_count": 101,
+      "coverage_rate": 91.58333333333334
+    },
+    "Glucose_52569": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "Glucose__Whole_Blood_52027": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "Hematocrit_51638": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "Hematocrit_51639": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "Hematocrit_51221": {
+      "non_null_count": 1148,
+      "null_count": 52,
+      "coverage_rate": 95.66666666666667
+    },
+    "Hemoglobin_50811": {
+      "non_null_count": 139,
+      "null_count": 1061,
+      "coverage_rate": 11.583333333333332
+    },
+    "Hemoglobin_51640": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "Hemoglobin_51222": {
+      "non_null_count": 1143,
+      "null_count": 57,
+      "coverage_rate": 95.25
+    },
+    "%_Hemoglobin_A1c_50852": {
+      "non_null_count": 94,
+      "null_count": 1106,
+      "coverage_rate": 7.833333333333334
+    },
+    "INRPT_51675": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "Lactate_50813": {
+      "non_null_count": 548,
+      "null_count": 652,
+      "coverage_rate": 45.666666666666664
+    },
+    "Lactate_52442": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "NTproBNP_50963": {
+      "non_null_count": 145,
+      "null_count": 1055,
+      "coverage_rate": 12.083333333333334
+    },
+    "O2_Flow_50815": {
+      "non_null_count": 27,
+      "null_count": 1173,
+      "coverage_rate": 2.25
+    },
+    "Oxygen_50816": {
+      "non_null_count": 96,
+      "null_count": 1104,
+      "coverage_rate": 8.0
+    },
+    "pCO2_50818": {
+      "non_null_count": 303,
+      "null_count": 897,
+      "coverage_rate": 25.25
+    },
+    "pCO2_52040": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "pH_50820": {
+      "non_null_count": 324,
+      "null_count": 876,
+      "coverage_rate": 27.0
+    },
+    "pH_52041": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "pH_50831": {
+      "non_null_count": 12,
+      "null_count": 1188,
+      "coverage_rate": 1.0
+    },
+    "Platelet_Count_51704": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "pO2_50821": {
+      "non_null_count": 303,
+      "null_count": 897,
+      "coverage_rate": 25.25
+    },
+    "pO2_52042": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "pO2__Body_Fluid_50832": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "Potassium_50971": {
+      "non_null_count": 1114,
+      "null_count": 86,
+      "coverage_rate": 92.83333333333333
+    },
+    "Potassium_52610": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "PT_51274": {
+      "non_null_count": 874,
+      "null_count": 326,
+      "coverage_rate": 72.83333333333334
+    },
+    "PT_52921": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "PTT_51275": {
+      "non_null_count": 854,
+      "null_count": 346,
+      "coverage_rate": 71.16666666666667
+    },
+    "PTT_52923": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "RDW_51277": {
+      "non_null_count": 1141,
+      "null_count": 59,
+      "coverage_rate": 95.08333333333333
+    },
+    "Reticulocyte_Count__Absolute_51282": {
+      "non_null_count": 29,
+      "null_count": 1171,
+      "coverage_rate": 2.4166666666666665
+    },
+    "Reticulocyte_Count__Automated_51283": {
+      "non_null_count": 46,
+      "null_count": 1154,
+      "coverage_rate": 3.833333333333333
+    },
+    "Reticulocyte_Count__Manual_51284": {
+      "non_null_count": 6,
+      "null_count": 1194,
+      "coverage_rate": 0.5
+    },
+    "Reticulocyte_Count__Manual_52934": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "Rheumatoid_Factor_50980": {
+      "non_null_count": 6,
+      "null_count": 1194,
+      "coverage_rate": 0.5
+    },
+    "Sodium_50983": {
+      "non_null_count": 1112,
+      "null_count": 88,
+      "coverage_rate": 92.66666666666666
+    },
+    "Sodium_52623": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "Thrombin_51297": {
+      "non_null_count": 1,
+      "null_count": 1199,
+      "coverage_rate": 0.08333333333333334
+    },
+    "Thrombin_52948": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "Thrombin_Time_52187": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "Tidal_Volume_50826": {
+      "non_null_count": 81,
+      "null_count": 1119,
+      "coverage_rate": 6.75
+    },
+    "Triglycerides_51000": {
+      "non_null_count": 84,
+      "null_count": 1116,
+      "coverage_rate": 7.000000000000001
+    },
+    "Triiodothyronine_T3_51001": {
+      "non_null_count": 5,
+      "null_count": 1195,
+      "coverage_rate": 0.4166666666666667
+    },
+    "Troponin_I_51002": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "Troponin_I_52642": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "Troponin_T_51003": {
+      "non_null_count": 188,
+      "null_count": 1012,
+      "coverage_rate": 15.666666666666668
+    },
+    "Urea_Nitrogen_51006": {
+      "non_null_count": 1122,
+      "null_count": 78,
+      "coverage_rate": 93.5
+    },
+    "Urea_Nitrogen_52647": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "Ventilation_Rate_50827": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "Ventilator_50828": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "WBC_Count_51300": {
+      "non_null_count": 4,
+      "null_count": 1196,
+      "coverage_rate": 0.33333333333333337
+    },
+    "White_Blood_Cells_51755": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "White_Blood_Cells_51756": {
+      "non_null_count": 0,
+      "null_count": 1200,
+      "coverage_rate": 0.0
+    },
+    "White_Blood_Cells_51301": {
+      "non_null_count": 1142,
+      "null_count": 58,
+      "coverage_rate": 95.16666666666667
+    }
+  }
+}

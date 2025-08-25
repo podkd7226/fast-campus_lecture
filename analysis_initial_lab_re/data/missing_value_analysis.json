@@ -1,0 +1,26 @@
+{
+  "coverage_comparison": {
+    "day0_only": {
+      "admissions_with_labs": 1060,
+      "coverage_rate": 88.33333333333333
+    },
+    "day_minus1_0_plus1": {
+      "admissions_with_labs": 1155,
+      "coverage_rate": 96.25
+    },
+    "improvement": {
+      "additional_admissions": 95,
+      "coverage_increase_pct": 7.916666666666671
+    }
+  },
+  "lab_improvements": {
+    "total_improved": 48,
+    "max_improvement": 353,
+    "avg_improvement": 73.4375
+  },
+  "time_window_contribution": {
+    "day0_pct": 82.5,
+    "day_minus1_pct": 5.3,
+    "day_plus1_pct": 12.2
+  }
+}

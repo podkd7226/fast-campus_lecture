@@ -1,0 +1,88 @@
+itemid,unique_label,original_label,category,fluid,has_data,data_count,coverage_pct
+51221,Hematocrit_51221,Hematocrit,Hematology,Blood,True,1148,95.66666666666667
+51222,Hemoglobin_51222,Hemoglobin,Hematology,Blood,True,1143,95.25
+51301,White_Blood_Cells_51301,White Blood Cells,Hematology,Blood,True,1142,95.16666666666667
+51277,RDW_51277,RDW,Hematology,Blood,True,1141,95.08333333333333
+50912,Creatinine_50912,Creatinine,Chemistry,Blood,True,1126,93.83333333333333
+51006,Urea_Nitrogen_51006,Urea Nitrogen,Chemistry,Blood,True,1122,93.5
+50971,Potassium_50971,Potassium,Chemistry,Blood,True,1114,92.83333333333333
+50983,Sodium_50983,Sodium,Chemistry,Blood,True,1112,92.66666666666666
+50931,Glucose_50931,Glucose,Chemistry,Blood,True,1099,91.58333333333334
+50893,Calcium__Total_50893,"Calcium, Total",Chemistry,Blood,True,940,78.33333333333333
+51200,Eosinophils_51200,Eosinophils,Hematology,Blood,True,919,76.58333333333334
+51146,Basophils_51146,Basophils,Hematology,Blood,True,919,76.58333333333334
+51274,PT_51274,PT,Hematology,Blood,True,874,72.83333333333334
+51275,PTT_51275,PTT,Hematology,Blood,True,854,71.16666666666667
+50885,Bilirubin__Total_50885,"Bilirubin, Total",Chemistry,Blood,True,671,55.91666666666667
+50813,Lactate_50813,Lactate,Blood Gas,Blood,True,548,45.666666666666664
+50862,Albumin_50862,Albumin,Chemistry,Blood,True,546,45.5
+50820,pH_50820,pH,Blood Gas,Blood,True,324,27.0
+50910,Creatine_Kinase_CK_50910,Creatine Kinase (CK),Chemistry,Blood,True,318,26.5
+50818,pCO2_50818,pCO2,Blood Gas,Blood,True,303,25.25
+50804,Calculated_Total_CO2_50804,Calculated Total CO2,Blood Gas,Blood,True,303,25.25
+50821,pO2_50821,pO2,Blood Gas,Blood,True,303,25.25
+51003,Troponin_T_51003,Troponin T,Chemistry,Blood,True,188,15.666666666666668
+50809,Glucose_50809,Glucose,Blood Gas,Blood,True,181,15.083333333333334
+50806,Chloride__Whole_Blood_50806,"Chloride, Whole Blood",Blood Gas,Blood,True,146,12.166666666666668
+50963,NTproBNP_50963,NTproBNP,Chemistry,Blood,True,145,12.083333333333334
+50811,Hemoglobin_50811,Hemoglobin,Blood Gas,Blood,True,139,11.583333333333332
+50816,Oxygen_50816,Oxygen,Blood Gas,Blood,True,96,8.0
+50852,%_Hemoglobin_A1c_50852,% Hemoglobin A1c,Chemistry,Blood,True,94,7.833333333333334
+50924,Ferritin_50924,Ferritin,Chemistry,Blood,True,84,7.000000000000001
+51000,Triglycerides_51000,Triglycerides,Chemistry,Blood,True,84,7.000000000000001
+50826,Tidal_Volume_50826,Tidal Volume,Blood Gas,Blood,True,81,6.75
+50883,Bilirubin__Direct_50883,"Bilirubin, Direct",Chemistry,Blood,True,72,6.0
+50884,Bilirubin__Indirect_50884,"Bilirubin, Indirect",Chemistry,Blood,True,71,5.916666666666667
+50803,Calculated_Bicarbonate__Whole_Blood_50803,"Calculated Bicarbonate, Whole Blood",Blood Gas,Blood,True,69,5.75
+50889,C_Reactive_Protein_50889,C-Reactive Protein,Chemistry,Blood,True,60,5.0
+51283,Reticulocyte_Count__Automated_51283,"Reticulocyte Count, Automated",Hematology,Blood,True,46,3.833333333333333
+51282,Reticulocyte_Count__Absolute_51282,"Reticulocyte Count, Absolute",Hematology,Blood,True,29,2.4166666666666665
+50815,O2_Flow_50815,O2 Flow,Blood Gas,Blood,True,27,2.25
+50925,Folate_50925,Folate,Chemistry,Blood,True,26,2.166666666666667
+50915,D_Dimer_50915,D-Dimer,Chemistry,Blood,True,22,1.8333333333333333
+50831,pH_50831,pH,Blood Gas,Other Body Fluid,True,12,1.0
+52024,Creatinine__Whole_Blood_52024,"Creatinine, Whole Blood",Blood Gas,Blood,True,11,0.9166666666666666
+51284,Reticulocyte_Count__Manual_51284,"Reticulocyte Count, Manual",Hematology,Blood,True,6,0.5
+50980,Rheumatoid_Factor_50980,Rheumatoid Factor,Chemistry,Blood,True,6,0.5
+51001,Triiodothyronine_T3_51001,Triiodothyronine (T3),Chemistry,Blood,True,5,0.4166666666666667
+51300,WBC_Count_51300,WBC Count,Hematology,Blood,True,4,0.33333333333333337
+51297,Thrombin_51297,Thrombin,Hematology,Blood,True,1,0.08333333333333334
+51755,White_Blood_Cells_51755,White Blood Cells,Chemistry,Blood,False,0,0.0
+51756,White_Blood_Cells_51756,White Blood Cells,Chemistry,Blood,False,0,0.0
+52642,Troponin_I_52642,Troponin I,Chemistry,Blood,False,0,0.0
+52934,Reticulocyte_Count__Manual_52934,"Reticulocyte Count, Manual",Hematology,Blood,False,0,0.0
+50828,Ventilator_50828,Ventilator,Blood Gas,Blood,False,0,0.0
+50827,Ventilation_Rate_50827,Ventilation Rate,Blood Gas,Blood,False,0,0.0
+52623,Sodium_52623,Sodium,Chemistry,Blood,False,0,0.0
+52647,Urea_Nitrogen_52647,Urea Nitrogen,Chemistry,Blood,False,0,0.0
+52948,Thrombin_52948,Thrombin,Hematology,Blood,False,0,0.0
+52187,Thrombin_Time_52187,Thrombin Time,Hematology,Blood,False,0,0.0
+51002,Troponin_I_51002,Troponin I,Chemistry,Blood,False,0,0.0
+52923,PTT_52923,PTT,Hematology,Blood,False,0,0.0
+50854,Absolute_A1c_50854,Absolute A1c,Chemistry,Blood,False,0,0.0
+52921,PT_52921,PT,Hematology,Blood,False,0,0.0
+52610,Potassium_52610,Potassium,Chemistry,Blood,False,0,0.0
+51538,Absolute_Other_WBC_51538,Absolute Other WBC,Chemistry,Blood,False,0,0.0
+51542,Albumin_51542,(Albumin),Chemistry,Blood,False,0,0.0
+51149,Bleeding_Time_51149,Bleeding Time,Hematology,Blood,False,0,0.0
+52786,Bleeding_Time_52786,Bleeding Time,Hematology,Blood,False,0,0.0
+51579,CA_19_9_51579,CA 19-9,Chemistry,Blood,False,0,0.0
+52434,Chloride__Whole_Blood_52434,"Chloride, Whole Blood",Blood Gas,Blood,False,0,0.0
+51853,COVID_19_51853,COVID-19,Chemistry,Other Body Fluid,False,0,0.0
+52546,Creatinine_52546,Creatinine,Chemistry,Blood,False,0,0.0
+51199,Eosinophil_Count_51199,Eosinophil Count,Hematology,Blood,False,0,0.0
+52026,Estimated_GFR_MDRD_equation_52026,Estimated GFR (MDRD equation),Blood Gas,Blood,False,0,0.0
+52562,Folate_52562,Folate,Chemistry,Blood,False,0,0.0
+52569,Glucose_52569,Glucose,Chemistry,Blood,False,0,0.0
+52027,Glucose__Whole_Blood_52027,"Glucose, Whole Blood",Blood Gas,Blood,False,0,0.0
+51638,Hematocrit_51638,Hematocrit,Chemistry,Blood,False,0,0.0
+51639,Hematocrit_51639,Hematocrit,Chemistry,Blood,False,0,0.0
+51640,Hemoglobin_51640,Hemoglobin,Chemistry,Blood,False,0,0.0
+51675,INRPT_51675,INR(PT),Chemistry,Blood,False,0,0.0
+51536,Absolute_Lymphocyte_Count_51536,Absolute Lymphocyte Count,Chemistry,Blood,False,0,0.0
+52040,pCO2_52040,pCO2,Blood Gas,Fluid,False,0,0.0
+52041,pH_52041,pH,Blood Gas,Fluid,False,0,0.0
+51704,Platelet_Count_51704,Platelet Count,Chemistry,Blood,False,0,0.0
+52042,pO2_52042,pO2,Blood Gas,Fluid,False,0,0.0
+50832,pO2__Body_Fluid_50832,"pO2, Body Fluid",Blood Gas,Other Body Fluid,False,0,0.0
+52442,Lactate_52442,Lactate,Blood Gas,Blood,False,0,0.0

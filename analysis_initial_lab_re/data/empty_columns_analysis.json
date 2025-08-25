@@ -1,0 +1,25 @@
+{
+  "overview": {
+    "total_items": 87,
+    "items_with_data": 48,
+    "empty_items": 39,
+    "empty_percentage": 44.8
+  },
+  "empty_reasons": {
+    "special_tests": 4,
+    "blood_gas_related": 10,
+    "duplicate_itemids": 6,
+    "other_fluid": 0,
+    "sample_limitation": 19
+  },
+  "alternative_itemids": {
+    "found": 23,
+    "unique_labels": 18
+  },
+  "recommendations": [
+    "중복 itemid 통합 필요 (Hematocrit, Hemoglobin, Glucose 등)",
+    "Blood Gas 검사는 ICU 데이터와 연계 필요",
+    "특수 검사는 선택적 포함 고려",
+    "더 큰 샘플 사용 시 커버리지 개선 예상"
+  ]
+}

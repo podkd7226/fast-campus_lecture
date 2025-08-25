@@ -1,0 +1,63 @@
+original_label,itemid_count,data_count,label_has_data
+% Hemoglobin A1c,1,94,True
+(Albumin),1,0,False
+Absolute A1c,1,0,False
+Absolute Lymphocyte Count,1,0,False
+Absolute Other WBC,1,0,False
+Albumin,1,546,True
+Basophils,1,919,True
+"Bilirubin, Direct",1,72,True
+"Bilirubin, Indirect",1,71,True
+"Bilirubin, Total",1,671,True
+Bleeding Time,2,0,False
+C-Reactive Protein,1,60,True
+CA 19-9,1,0,False
+COVID-19,1,0,False
+"Calcium, Total",1,940,True
+"Calculated Bicarbonate, Whole Blood",1,69,True
+Calculated Total CO2,1,303,True
+"Chloride, Whole Blood",2,146,True
+Creatine Kinase (CK),1,318,True
+Creatinine,2,1126,True
+"Creatinine, Whole Blood",1,11,True
+D-Dimer,1,22,True
+Eosinophil Count,1,0,False
+Eosinophils,1,919,True
+Estimated GFR (MDRD equation),1,0,False
+Ferritin,1,84,True
+Folate,2,26,True
+Glucose,3,1280,True
+"Glucose, Whole Blood",1,0,False
+Hematocrit,3,1148,True
+Hemoglobin,3,1282,True
+INR(PT),1,0,False
+Lactate,2,548,True
+NTproBNP,1,145,True
+O2 Flow,1,27,True
+Oxygen,1,96,True
+PT,2,874,True
+PTT,2,854,True
+Platelet Count,1,0,False
+Potassium,2,1114,True
+RDW,1,1141,True
+"Reticulocyte Count, Absolute",1,29,True
+"Reticulocyte Count, Automated",1,46,True
+"Reticulocyte Count, Manual",2,6,True
+Rheumatoid Factor,1,6,True
+Sodium,2,1112,True
+Thrombin,2,1,True
+Thrombin Time,1,0,False
+Tidal Volume,1,81,True
+Triglycerides,1,84,True
+Triiodothyronine (T3),1,5,True
+Troponin I,2,0,False
+Troponin T,1,188,True
+Urea Nitrogen,2,1122,True
+Ventilation Rate,1,0,False
+Ventilator,1,0,False
+WBC Count,1,4,True
+White Blood Cells,3,1142,True
+pCO2,2,303,True
+pH,3,336,True
+pO2,2,303,True
+"pO2, Body Fluid",1,0,False

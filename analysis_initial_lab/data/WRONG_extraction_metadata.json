@@ -1,0 +1,18 @@
+{
+  "extraction_date": "2025-08-24 23:35:13",
+  "total_admissions": 1200,
+  "lab_items": {
+    "inclusion_1_total": 87,
+    "available_in_sample": 61,
+    "actual_columns": 45
+  },
+  "data_coverage": {
+    "admissions_with_labs": 1155,
+    "coverage_rate": 96.25
+  },
+  "source_distribution": {
+    "Day+1": 2460,
+    "Day-1": 1065,
+    "Day0": 16593
+  }
+}

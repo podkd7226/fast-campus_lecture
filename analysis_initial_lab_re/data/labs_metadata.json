@@ -1,0 +1,40 @@
+{
+  "extraction_info": {
+    "date": "2025-08-25 10:36:13",
+    "method": "itemid_based_individual_columns",
+    "time_window": "Day -1, 0, +1 priority",
+    "offset_handling": "separated_to_different_file"
+  },
+  "data_summary": {
+    "total_admissions": 1200,
+    "total_patients": 1171,
+    "total_lab_items": 87,
+    "columns_with_data": 48,
+    "empty_columns": 39
+  },
+  "coverage": {
+    "admissions_with_any_lab": 1155,
+    "coverage_rate": 96.25,
+    "total_lab_records": 20118
+  },
+  "source_distribution": {
+    "Day+1": 2460,
+    "Day-1": 1065,
+    "Day0": 16593
+  },
+  "file_info": {
+    "labs_initial_wide.csv": {
+      "rows": 1200,
+      "columns": 93,
+      "description": "Wide format with all 87 lab columns (no offset)"
+    },
+    "labs_initial_long.csv": {
+      "rows": 20118,
+      "description": "Long format with all lab records"
+    },
+    "labs_offset_info.csv": {
+      "rows": 20118,
+      "description": "Day offset information for each lab"
+    }
+  }
+}

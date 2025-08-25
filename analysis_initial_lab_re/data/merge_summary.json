@@ -1,0 +1,63 @@
+{
+  "extraction_info": {
+    "date": "2025-08-25 11:27:55",
+    "method": "selective_itemid_merging",
+    "description": "안전한 경우만 itemid 통합 (한쪽이 비어있는 경우)"
+  },
+  "merge_statistics": {
+    "total_merge_rules": 17,
+    "merged_itemids": [
+      51638,
+      51639,
+      51755,
+      51756,
+      52623,
+      52040,
+      52647,
+      52948,
+      52610,
+      52934,
+      52434,
+      52923,
+      52921,
+      52442,
+      52562,
+      52546,
+      52042
+    ],
+    "target_itemids": [
+      50912,
+      51297,
+      50818,
+      51301,
+      50821,
+      50983,
+      51274,
+      51275,
+      50925,
+      51284,
+      51221,
+      50806,
+      50971,
+      50813,
+      51006
+    ],
+    "unsafe_merges": 3,
+    "unsafe_labels": [
+      "pH",
+      "Glucose",
+      "Hemoglobin"
+    ]
+  },
+  "data_summary": {
+    "original_itemids": 87,
+    "final_itemids": 70,
+    "total_admissions": 1200,
+    "total_lab_records": 20118,
+    "columns_with_data": 48
+  },
+  "coverage": {
+    "admissions_with_labs": 1155,
+    "coverage_rate": 96.25
+  }
+}

@@ -1,0 +1,4 @@
+label,itemid_count,itemids,total_data,data_counts,coverages
+Glucose,2,50931;50809,1280,1099;181,91.6%;15.1%
+Hemoglobin,2,51222;50811,1282,1143;139,95.2%;11.6%
+pH,2,50820;50831,336,324;12,27.0%;1.0%

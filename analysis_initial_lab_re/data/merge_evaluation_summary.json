@@ -1,0 +1,23 @@
+{
+  "evaluation_date": "2025-08-25 11:33:28",
+  "structure_changes": {
+    "columns_reduced": 17,
+    "empty_columns_reduced": 17,
+    "merged_itemids": 17
+  },
+  "coverage_impact": {
+    "admission_coverage_change": 0.0,
+    "reason": "통합된 itemid들이 원래 비어있어서 커버리지 변화 없음"
+  },
+  "benefits": [
+    "데이터 구조 단순화 (87→70 컬럼)",
+    "빈 컬럼 감소 (39→22개)",
+    "중복 itemid 제거로 일관성 향상",
+    "향후 분석 복잡도 감소"
+  ],
+  "preserved_integrity": [
+    "값이 다른 itemid는 통합하지 않음 (Glucose, Hemoglobin, pH)",
+    "데이터 손실 없음",
+    "원본 데이터 무결성 유지"
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "Creatinine": {
+    "50912": {
+      "original_label": "Creatinine",
+      "category": "Chemistry",
+      "fluid": "Blood",
+      "suffix": "Chemistry",
+      "unique_name": "Creatinine_50912_Chemistry"
+    },
+    "52546": {
+      "original_label": "Creatinine",
+      "category": "Chemistry",
+      "fluid": "Blood",
+      "suffix": "Chemistry2",
+      "unique_name": "Creatinine_52546_Chemistry2"
+    }
+  },
+  "Glucose": {
+    "50809": {
+      "original_label": "Glucose",
+      "category": "Blood Gas",
+      "fluid": "Blood",
+      "suffix": "BloodGas",
+      "unique_name": "Glucose_50809_BloodGas"
+    },
+    "50931": {
+      "original_label": "Glucose",
+      "category": "Chemistry",
+      "fluid": "Blood",
+      "suffix": "Chemistry",
+      "unique_name": "Glucose_50931_Chemistry"
+    },
+    "52569": {
+      "original_label": "Glucose",
+      "category": "Chemistry",
+      "fluid": "Blood",
+      "suffix": "Chemistry2",
+      "unique_name": "Glucose_52569_Chemistry2"
+    }
+  },
+  "Hematocrit": {
+    "51638": {
+      "original_label": "Hematocrit",
+      "category": "Chemistry",
+      "fluid": "Blood",
+      "suffix": "Chemistry",
+      "unique_name": "Hematocrit_51638_Chemistry"
+    },
+    "51221": {
+      "original_label": "Hematocrit",
+      "category": "Hematology",
+      "fluid": "Blood",
+      "suffix": "CBC",
+      "unique_name": "Hematocrit_51221_CBC"
+    }
+  },
+  "Hemoglobin": {
+    "50811": {
+      "original_label": "Hemoglobin",
+      "category": "Blood Gas",
+      "fluid": "Blood",
+      "suffix": "BloodGas",
+      "unique_name": "Hemoglobin_50811_BloodGas"
+    },
+    "51222": {
+      "original_label": "Hemoglobin",
+      "category": "Hematology",
+      "fluid": "Blood",
+      "suffix": "CBC",
+      "unique_name": "Hemoglobin_51222_CBC"
+    }
+  },
+  "pH": {
+    "50820": {
+      "original_label": "pH",
+      "category": "Blood Gas",
+      "fluid": "Blood",
+      "suffix": "BloodGas",
+      "unique_name": "pH_50820_BloodGas"
+    },
+    "50831": {
+      "original_label": "pH",
+      "category": "Blood Gas",
+      "fluid": "Other Body Fluid",
+      "suffix": "BloodGas",
+      "unique_name": "pH_50831_BloodGas"
+    }
+  },
+  "Potassium": {
+    "50971": {
+      "original_label": "Potassium",
+      "category": "Chemistry",
+      "fluid": "Blood",
+      "suffix": "Chemistry",
+      "unique_name": "Potassium_50971_Chemistry"
+    },
+    "52610": {
+      "original_label": "Potassium",
+      "category": "Chemistry",
+      "fluid": "Blood",
+      "suffix": "Chemistry2",
+      "unique_name": "Potassium_52610_Chemistry2"
+    }
+  },
+  "Sodium": {
+    "50983": {
+      "original_label": "Sodium",
+      "category": "Chemistry",
+      "fluid": "Blood",
+      "suffix": "Chemistry",
+      "unique_name": "Sodium_50983_Chemistry"
+    },
+    "52623": {
+      "original_label": "Sodium",
+      "category": "Chemistry",
+      "fluid": "Blood",
+      "suffix": "Chemistry2",
+      "unique_name": "Sodium_52623_Chemistry2"
+    }
+  },
+  "Urea_Nitrogen": {
+    "51006": {
+      "original_label": "Urea Nitrogen",
+      "category": "Chemistry",
+      "fluid": "Blood",
+      "suffix": "Chemistry",
+      "unique_name": "Urea_Nitrogen_51006_Chemistry"
+    },
+    "52647": {
+      "original_label": "Urea Nitrogen",
+      "category": "Chemistry",
+      "fluid": "Blood",
+      "suffix": "Chemistry2",
+      "unique_name": "Urea_Nitrogen_52647_Chemistry2"
+    }
+  },
+  "White_Blood_Cells": {
+    "51755": {
+      "original_label": "White Blood Cells",
+      "category": "Chemistry",
+      "fluid": "Blood",
+      "suffix": "Chemistry",
+      "unique_name": "White_Blood_Cells_51755_Chemistry"
+    },
+    "51301": {
+      "original_label": "White Blood Cells",
+      "category": "Hematology",
+      "fluid": "Blood",
+      "suffix": "CBC",
+      "unique_name": "White_Blood_Cells_51301_CBC"
+    }
+  }
+}

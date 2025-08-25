@@ -1,0 +1,32 @@
+{
+  "analysis_type": "label_based_coverage",
+  "itemid_analysis": {
+    "total": 87,
+    "active": 48,
+    "empty": 39,
+    "coverage_pct": 55.2
+  },
+  "label_analysis": {
+    "total": 62,
+    "active": 45,
+    "empty": 17,
+    "coverage_pct": 72.58064516129032
+  },
+  "duplicate_labels": {
+    "total": 20,
+    "partial_data": 18,
+    "all_empty": 2,
+    "all_active": 0
+  },
+  "real_empty": {
+    "total": 17,
+    "special_tests": 3,
+    "blood_gas": 5,
+    "other_fluid": 0,
+    "unknown": 9
+  },
+  "improvement_potential": {
+    "false_empty_itemids": 22,
+    "description": "ItemID 통합 시 활성화 가능한 항목 수"
+  }
+}

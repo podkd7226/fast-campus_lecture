@@ -1,0 +1,62 @@
+itemid,clean_label,original_label
+50854,Absolute_A1c,Absolute A1c
+50862,Albumin,Albumin
+51146,Basophils,Basophils
+50883,Bilirubin__Direct,"Bilirubin, Direct"
+50884,Bilirubin__Indirect,"Bilirubin, Indirect"
+50885,Bilirubin__Total,"Bilirubin, Total"
+50893,Calcium__Total,"Calcium, Total"
+50803,Calculated_Bicarbonate__Whole_Blood,"Calculated Bicarbonate, Whole Blood"
+50804,Calculated_Total_CO2,Calculated Total CO2
+50806,Chloride__Whole_Blood,"Chloride, Whole Blood"
+50889,C-Reactive_Protein,C-Reactive Protein
+50910,Creatine_Kinase_CK,Creatine Kinase (CK)
+50912,Creatinine,Creatinine
+52546,Creatinine,Creatinine
+52024,Creatinine__Whole_Blood,"Creatinine, Whole Blood"
+50915,D-Dimer,D-Dimer
+51199,Eosinophil_Count,Eosinophil Count
+51200,Eosinophils,Eosinophils
+52026,Estimated_GFR_MDRD_equation,Estimated GFR (MDRD equation)
+50924,Ferritin,Ferritin
+50925,Folate,Folate
+50809,Glucose,Glucose
+50931,Glucose,Glucose
+52569,Glucose,Glucose
+51638,Hematocrit,Hematocrit
+51221,Hematocrit,Hematocrit
+50811,Hemoglobin,Hemoglobin
+51222,Hemoglobin,Hemoglobin
+50852,%_Hemoglobin_A1c,% Hemoglobin A1c
+50813,Lactate,Lactate
+50963,NTproBNP,NTproBNP
+50815,O2_Flow,O2 Flow
+50816,Oxygen,Oxygen
+50818,pCO2,pCO2
+50820,pH,pH
+50831,pH,pH
+50821,pO2,pO2
+50971,Potassium,Potassium
+52610,Potassium,Potassium
+51274,PT,PT
+51275,PTT,PTT
+51277,RDW,RDW
+51282,Reticulocyte_Count__Absolute,"Reticulocyte Count, Absolute"
+51283,Reticulocyte_Count__Automated,"Reticulocyte Count, Automated"
+51284,Reticulocyte_Count__Manual,"Reticulocyte Count, Manual"
+50980,Rheumatoid_Factor,Rheumatoid Factor
+50983,Sodium,Sodium
+52623,Sodium,Sodium
+51297,Thrombin,Thrombin
+50826,Tidal_Volume,Tidal Volume
+51000,Triglycerides,Triglycerides
+51001,Triiodothyronine_T3,Triiodothyronine (T3)
+52642,Troponin_I,Troponin I
+51003,Troponin_T,Troponin T
+51006,Urea_Nitrogen,Urea Nitrogen
+52647,Urea_Nitrogen,Urea Nitrogen
+50827,Ventilation_Rate,Ventilation Rate
+50828,Ventilator,Ventilator
+51300,WBC_Count,WBC Count
+51755,White_Blood_Cells,White Blood Cells
+51301,White_Blood_Cells,White Blood Cells

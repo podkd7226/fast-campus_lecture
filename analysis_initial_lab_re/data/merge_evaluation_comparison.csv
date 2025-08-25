@@ -1,0 +1,7 @@
+metric,before_merge,after_merge
+Total Columns,87,70
+Active Columns,48,48
+Empty Columns,39,22
+Average Missing Rate,81.2%,76.6%
+Admission Coverage,96.2%,96.2%
+Data Structure,87 itemids,70 itemids
