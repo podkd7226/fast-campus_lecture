@@ -94,10 +94,21 @@ python scripts/analysis/extract_initial_labs_clean.py
 
 ### 생성된 파일
 
-#### 메인 데이터
-- `data/labs_initial_wide.csv`: 1,200 × 93 (검사 값만, offset 제외)
+#### 초기 추출 데이터 (ItemID별 개별 처리)
+- `data/labs_initial_wide.csv`: 1,200 × 87 검사 컬럼 (원본 itemid 유지)
 - `data/labs_initial_long.csv`: 20,118개 검사 레코드
 - `data/labs_offset_info.csv`: 각 검사의 day_offset 정보
+
+#### 병합 최적화 데이터 (선택적 ItemID 통합)
+- `data/labs_initial_merged_wide.csv`: 1,200 × 70 검사 컬럼 (안전한 병합 적용)
+- `data/labs_initial_merged_long.csv`: 20,118개 검사 레코드 (병합된 itemid)
+- `data/labs_merged_offset_info.csv`: 병합된 검사의 day_offset 정보
+
+#### 병합 관련 분석 파일
+- `data/improvable_items.csv`: 개선 가능 항목 (한쪽만 활성인 경우)
+- `data/duplicate_active_labels.csv`: 중복 활성 라벨 (병합 불가)
+- `data/merge_mapping.csv`: ItemID 병합 매핑 테이블 (17개 매핑)
+- `data/merge_summary.json`: 병합 프로세스 결과 요약
 
 #### 메타데이터
 - `data/lab_items_summary.csv`: 87개 검사 항목 요약
@@ -135,10 +146,88 @@ hadm_id | itemid | lab_name         | day_offset | source
 - 39개 항목은 샘플에 데이터가 전혀 없음 (실제로는 존재할 수 있음)
 - 중복 itemid는 서로 다른 측정 방법/장비를 의미할 수 있음
 
+## 🔄 선택적 ItemID 병합 프로세스
+
+### 병합의 필요성과 원리
+
+MIMIC-IV 데이터베이스에서 동일한 검사가 여러 itemid로 나뉘어 저장되는 경우가 있습니다. 이는 다음과 같은 이유로 발생합니다:
+
+1. **장비 변경**: 병원이 새로운 검사 장비를 도입하면서 새 itemid 생성
+2. **시스템 업그레이드**: 의료정보시스템 업데이트로 인한 코드 변경
+3. **측정 방법 차이**: 같은 검사라도 측정 방법에 따라 다른 itemid 부여
+
+### 데이터 분석 결과 (scripts/analysis/analyze_duplicate_active_items.py)
+
+초기 분석에서 87개 itemid 중 다음과 같은 패턴을 발견했습니다:
+
+#### 1. 안전하게 병합 가능한 경우 (17개 itemid)
+한쪽 itemid에만 데이터가 있고 다른 쪽은 완전히 비어있는 경우:
+
+| 검사명 | 빈 itemid | 활성 itemid | 병합 방향 |
+|--------|-----------|-------------|-----------|
+| Hematocrit | 51638, 51639 | 51221 | → 51221 |
+| White Blood Cells | 51755, 51756 | 51301 | → 51301 |
+| Creatinine | 52546 | 50912 | → 50912 |
+| Sodium | 52623 | 50983 | → 50983 |
+| Potassium | 52610 | 50971 | → 50971 |
+
+#### 2. 병합 불가능한 경우 (3개 라벨)
+두 itemid 모두 데이터가 있어 값 손실 위험이 있는 경우:
+
+| 검사명 | itemid들 | 각 커버리지 | 병합 불가 이유 |
+|--------|----------|-------------|---------------|
+| pH | 50820, 50831 | 27.0%, 1.0% | 둘 다 활성, 측정값 차이 가능 |
+| Glucose | 50931, 50809 | 91.6%, 15.1% | 둘 다 활성, 측정 방법 다름 |
+| Hemoglobin | 51222, 50811 | 95.2%, 11.6% | 둘 다 활성, 장비 차이 가능 |
+
+### 병합 프로세스 구현 (scripts/analysis/extract_initial_labs_merged.py)
+
+```python
+# 1. 안전한 병합 규칙 생성 (라인 41-69)
+for _, row in improvable.iterrows():
+    if label not in duplicate_active_labels:  # 중복 활성이 아닌 경우만
+        target_itemid = active_itemids[0]
+        for empty_id in empty_itemids:
+            merge_rules[empty_id] = target_itemid
+
+# 2. 병합 적용 (라인 118-126)
+for old_id, new_id in merge_rules.items():
+    labevents.loc[labevents['itemid'] == old_id, 'itemid'] = new_id
+```
+
+### 병합 전후 비교
+
+| 구분 | 병합 전 | 병합 후 | 개선 효과 |
+|------|---------|---------|-----------|
+| **파일명** | labs_initial_wide.csv | labs_initial_merged_wide.csv | - |
+| **검사 컬럼 수** | 87개 | 70개 | -19.5% |
+| **데이터 있는 컬럼** | 48개 | 48개 | 동일 |
+| **전체 커버리지** | 96.2% | 96.25% | +0.05% |
+| **파일 크기** | 더 큼 | 더 작음 | 구조 단순화 |
+
+### 병합의 장점
+
+1. **데이터 구조 단순화**: 87개 → 70개 컬럼으로 감소
+2. **분석 효율성 향상**: 의미적으로 동일한 검사가 하나의 컬럼으로 통합
+3. **머신러닝 적용 용이**: 차원 축소로 모델 학습 효율성 증대
+4. **해석 가능성 향상**: 중복된 검사 항목이 제거되어 결과 해석 명확
+
+### 병합의 안전성 보장
+
+병합 과정에서 데이터 무결성을 보장하기 위한 원칙:
+
+1. **보수적 접근**: 한쪽이 완전히 비어있는 경우만 병합
+2. **값 충돌 방지**: 둘 다 데이터가 있으면 병합하지 않음
+3. **추적 가능성**: `merge_mapping.csv`에 모든 병합 기록 보존
+4. **원본 보존**: 병합 전 데이터(`labs_initial_wide.csv`)도 유지
+
 ## ❓ 자주 묻는 질문
 
 **Q: 왜 itemid별로 개별 컬럼을 만드나요?**
 A: 같은 검사(예: Glucose)도 측정 방법이나 장비에 따라 여러 itemid를 가질 수 있습니다. 이를 하나로 합치면 중요한 정보가 손실될 수 있어 개별 보존합니다.
+
+**Q: labs_initial_wide.csv와 labs_initial_merged_wide.csv의 차이는?**
+A: `labs_initial_wide.csv`는 87개 itemid를 모두 개별 컬럼으로 유지한 원본이고, `labs_initial_merged_wide.csv`는 안전한 경우만 선택적으로 병합하여 70개로 축소한 최적화 버전입니다. 한쪽이 비어있는 itemid들만 병합하여 데이터 손실 없이 구조를 단순화했습니다.
 
 **Q: offset 정보는 왜 분리했나요?**
 A: 메인 데이터(검사 값)와 메타데이터(측정 시점)를 분리하여 더 깔끔한 데이터 구조를 만들었습니다. 필요시 hadm_id와 itemid로 조인 가능합니다.
