@@ -1,0 +1,4 @@
+Task,Model,AUROC,F1 Score,Precision,Recall,MAE,RMSE,R²
+전체 사망 예측,Logistic Regression,0.7794,0.7318,0.7360,0.7278,-,-,-
+병원 내 사망 예측,Logistic Regression,0.8011,0.4681,0.6000,0.3837,-,-,-
+입원기간 예측,Linear Regression,-,-,-,-,5.25,10.41,0.1310

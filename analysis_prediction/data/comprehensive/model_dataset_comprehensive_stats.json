@@ -1,0 +1,46 @@
+{
+  "dataset_type": "comprehensive",
+  "description": "포괄적 변수 세트 (결측률 < 90%, 중요 지표 포함)",
+  "clinical_relevance": "중증 환자 평가를 위한 특수 검사 포함",
+  "n_samples": 1200,
+  "n_features": 35,
+  "n_lab_features": 24,
+  "n_demographic_features": 6,
+  "missing_rates": {
+    "mean": 37.5,
+    "median": 25.291666666666668,
+    "max": 100.0,
+    "min": 4.333333333333334
+  },
+  "complete_cases": {
+    "n_complete": 0,
+    "percent_complete": 0.0
+  },
+  "lab_features": [
+    "Hematocrit_51221_merged",
+    "Hemoglobin_51222",
+    "Creatinine_50912_merged",
+    "RDW_51277",
+    "White_Blood_Cells_51301_merged",
+    "Urea_Nitrogen_51006_merged",
+    "Potassium_50971_merged",
+    "Sodium_50983_merged",
+    "Glucose_50931",
+    "Basophils_51146",
+    "Eosinophils_51200",
+    "PT_51274_merged",
+    "PTT_51275_merged",
+    "Calcium__Total_50893",
+    "Bilirubin__Total_50885",
+    "Lactate_50813_merged",
+    "Platelet_Count_51704",
+    "Albumin_50862",
+    "pH_50820",
+    "pO2_50821_merged",
+    "pCO2_50818_merged",
+    "Creatine_Kinase_CK_50910",
+    "Troponin_T_51003",
+    "Chloride__Whole_Blood_50806_merged"
+  ],
+  "missing_features": []
+}

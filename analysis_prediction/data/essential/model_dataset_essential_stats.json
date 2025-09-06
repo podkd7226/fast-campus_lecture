@@ -1,0 +1,31 @@
+{
+  "dataset_type": "essential",
+  "description": "필수 변수 세트 (결측률 < 30%)",
+  "clinical_relevance": "CBC, BMP 기본 검사 - 모든 입원 환자의 표준 검사",
+  "n_samples": 1200,
+  "n_features": 20,
+  "n_lab_features": 9,
+  "n_demographic_features": 6,
+  "missing_rates": {
+    "mean": 6.046296296296296,
+    "median": 6.166666666666667,
+    "max": 8.416666666666666,
+    "min": 4.333333333333334
+  },
+  "complete_cases": {
+    "n_complete": 1096,
+    "percent_complete": 91.33333333333333
+  },
+  "lab_features": [
+    "Hematocrit_51221_merged",
+    "Hemoglobin_51222",
+    "Creatinine_50912_merged",
+    "RDW_51277",
+    "White_Blood_Cells_51301_merged",
+    "Urea_Nitrogen_51006_merged",
+    "Potassium_50971_merged",
+    "Sodium_50983_merged",
+    "Glucose_50931"
+  ],
+  "missing_features": []
+}

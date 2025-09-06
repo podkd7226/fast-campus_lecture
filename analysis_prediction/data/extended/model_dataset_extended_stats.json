@@ -1,0 +1,39 @@
+{
+  "dataset_type": "extended",
+  "description": "확장 변수 세트 (결측률 < 70%)",
+  "clinical_relevance": "CBC 상세, 응고검사, 간기능, 중증도 지표 포함",
+  "n_samples": 1200,
+  "n_features": 28,
+  "n_lab_features": 17,
+  "n_demographic_features": 6,
+  "missing_rates": {
+    "mean": 22.196078431372552,
+    "median": 8.416666666666666,
+    "max": 100.0,
+    "min": 4.333333333333334
+  },
+  "complete_cases": {
+    "n_complete": 0,
+    "percent_complete": 0.0
+  },
+  "lab_features": [
+    "Hematocrit_51221_merged",
+    "Hemoglobin_51222",
+    "Creatinine_50912_merged",
+    "RDW_51277",
+    "White_Blood_Cells_51301_merged",
+    "Urea_Nitrogen_51006_merged",
+    "Potassium_50971_merged",
+    "Sodium_50983_merged",
+    "Glucose_50931",
+    "Basophils_51146",
+    "Eosinophils_51200",
+    "PT_51274_merged",
+    "PTT_51275_merged",
+    "Calcium__Total_50893",
+    "Bilirubin__Total_50885",
+    "Lactate_50813_merged",
+    "Platelet_Count_51704"
+  ],
+  "missing_features": []
+}

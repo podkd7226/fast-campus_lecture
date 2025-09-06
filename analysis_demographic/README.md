@@ -82,6 +82,5 @@ A: 연령 분포와 사망률의 불균형을 고려하여 층화 샘플링을 �
 A: MIMIC-IV에서 제공하는 환자의 첫 입원 시점 나이로, 개인정보 보호를 위해 정확한 생년월일 대신 제공됩니다.
 
 ## 🔗 관련 분석
-- [기본 분석](../analysis_basic/README.md)
 - [종합 분석](../analysis_comprehensive/README.md)
 - [상세 분석](../analysis_detailed/README.md)

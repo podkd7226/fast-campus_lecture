@@ -255,6 +255,47 @@ python validate_sampling.py
 
 ---
 
+## 📁 특별 폴더 구조: analysis_prediction
+
+예측 모델 개발을 위한 `analysis_prediction` 폴더는 다른 분석 폴더와 달리 특별한 구조를 따릅니다:
+
+```
+analysis_prediction/
+├── README.md                    # 전체 개요
+├── docs/                        # 📚 모든 문서
+│   ├── guides/                  # 가이드 문서
+│   │   ├── Modeling_Guide.md
+│   │   └── MIMIC_IV_Age_Calculation_Guide.md
+│   └── datasets/                # 데이터셋 분석 문서
+│       ├── Essential_Dataset_Analysis.md
+│       ├── Extended_Dataset_Analysis.md
+│       └── Comprehensive_Dataset_Analysis.md
+├── data/                        # 📊 데이터 파일
+│   ├── raw/                     # 원본 통합 데이터
+│   ├── essential/               # Essential 데이터셋 (결측률 6%)
+│   ├── extended/                # Extended 데이터셋 (결측률 22%)
+│   └── comprehensive/           # Comprehensive 데이터셋 (결측률 37%)
+├── models/                      # 🤖 모델 개발 (각 데이터셋별)
+│   ├── essential/
+│   │   ├── notebooks/          # Jupyter notebooks
+│   │   ├── scripts/            # Python 스크립트
+│   │   └── results/            # 모델 결과
+│   ├── extended/
+│   └── comprehensive/
+├── scripts/                     # 🔧 유틸리티 스크립트
+│   └── data_preparation/        # 데이터 준비 스크립트
+├── figures/                     # 📈 시각화
+└── results/                     # 📋 최종 결과
+```
+
+### 특징
+- **3개 레벨 데이터셋**: Essential (기본), Extended (확장), Comprehensive (포괄)
+- **각 데이터셋별 독립 모델링**: models/ 폴더 아래 분리
+- **체계적 문서화**: docs/ 폴더에 가이드와 분석 문서 분리
+- **재현가능한 실험**: notebooks와 scripts 분리
+
+---
+
 ## 🚀 새 분석 추가 가이드
 
 ### 분석 시작 전 체크리스트

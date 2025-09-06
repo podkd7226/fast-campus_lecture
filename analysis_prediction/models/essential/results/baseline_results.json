@@ -1,0 +1,31 @@
+{
+  "dataset": "Essential",
+  "model": "Baseline (Logistic/Linear Regression)",
+  "validation": "Time-based Split (70:30)",
+  "data_info": {
+    "total_samples": 1200,
+    "train_samples": 840,
+    "test_samples": 360,
+    "features": 12,
+    "features_after_encoding": 19
+  },
+  "death_binary": {
+    "auroc": 0.7794135802469137,
+    "f1_score": 0.7318435754189944,
+    "precision": 0.7359550561797753,
+    "recall": 0.7277777777777777
+  },
+  "hospital_death": {
+    "auroc": 0.8011373281276524,
+    "f1_score": 0.46808510638297873,
+    "precision": 0.6,
+    "recall": 0.38372093023255816
+  },
+  "los_days": {
+    "mae": 5.25461938568756,
+    "rmse": 10.409821385265937,
+    "r2": 0.130982563897711,
+    "actual_mean": 6.528503086419753,
+    "predicted_mean": 6.257895369188083
+  }
+}

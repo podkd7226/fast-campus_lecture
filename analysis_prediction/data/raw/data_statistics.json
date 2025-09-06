@@ -1,0 +1,56 @@
+{
+  "total_records": 1200,
+  "dataset_info": {
+    "n_lab_features": 75,
+    "n_total_features": 94,
+    "date_created": "2025-09-06T15:55:26.820237"
+  },
+  "target_variables": {
+    "death_type": {
+      "alive": 600,
+      "hospital": 300,
+      "outside": 300
+    },
+    "death_binary": {
+      "alive": 600,
+      "dead": 600
+    },
+    "hospital_death": {
+      "no": 900,
+      "yes": 300
+    }
+  },
+  "los_statistics": {
+    "mean_days": 6.389216435185185,
+    "median_days": 3.5527777777777776,
+    "std_days": 10.480003343171818,
+    "min_days": 0.0,
+    "max_days": 157.83819444444444,
+    "q1_days": 1.4513888888888888,
+    "q3_days": 7.0074652777777775
+  },
+  "demographics": {
+    "age": {
+      "mean": 63.530833333333334,
+      "std": 18.370954228662573,
+      "min": 18.0,
+      "max": 98.0
+    },
+    "gender": {
+      "M": 622,
+      "F": 578
+    }
+  },
+  "lab_missing_rates": {
+    "Absolute_A1c_50854": 1.0,
+    "Absolute_Lymphocyte_Count_51536": 1.0,
+    "Absolute_Other_WBC_51538": 1.0,
+    "Albumin_51542": 1.0,
+    "Albumin_50862": 0.545,
+    "Basophils_51146": 0.2342,
+    "Bilirubin__Direct_50883": 0.94,
+    "Bilirubin__Indirect_50884": 0.9408,
+    "Bilirubin__Total_50885": 0.4408,
+    "Bleeding_Time_51149": 1.0
+  }
+}

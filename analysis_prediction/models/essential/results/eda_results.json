@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-09-06T17:31:32.394561",
+  "dataset": "essential",
+  "summary": {
+    "\ub370\uc774\ud130\uc14b \ud06c\uae30": "1,200 \u00d7 21",
+    "\uc644\uc804\ud55c \ucf00\uc774\uc2a4": "1,096 (91.3%)",
+    "\ud3c9\uade0 \uacb0\uce21\ub960": "2.59%",
+    "\uc804\uccb4 \uc0ac\ub9dd\ub960": "50.0%",
+    "\ubcd1\uc6d0 \ub0b4 \uc0ac\ub9dd\ub960": "25.0%",
+    "\ud3c9\uade0 \uc785\uc6d0\uae30\uac04": "6.4\uc77c (\u00b110.5)",
+    "\ud3c9\uade0 \ub098\uc774": "63.5\uc138 (\u00b118.4)",
+    "\uc131\ubcc4 \ube44\uc728": "\ub0a8\uc131 51.8%, \uc5ec\uc131 48.2%"
+  },
+  "missing_rate": {
+    "Hematocrit_51221_merged": 0.043333333333333335,
+    "Hemoglobin_51222": 0.0475,
+    "Creatinine_50912_merged": 0.06166666666666667,
+    "RDW_51277": 0.049166666666666664,
+    "White_Blood_Cells_51301_merged": 0.04833333333333333,
+    "Urea_Nitrogen_51006_merged": 0.065,
+    "Potassium_50971_merged": 0.07166666666666667,
+    "Sodium_50983_merged": 0.07333333333333333,
+    "Glucose_50931": 0.08416666666666667
+  },
+  "target_correlations": {
+    "death_binary_top5": {
+      "Glucose_50931": 0.10404058048149162,
+      "Hematocrit_51221_merged": -0.2160692859927121,
+      "Hemoglobin_51222": -0.2431678576729566,
+      "Potassium_50971_merged": 0.053469232681144195,
+      "RDW_51277": 0.31424992102476884
+    },
+    "los_days_top5": {
+      "Glucose_50931": -0.032566629360237534,
+      "Hematocrit_51221_merged": -0.14210806310843388,
+      "Hemoglobin_51222": -0.14950908089433718,
+      "Potassium_50971_merged": 0.009689742491954494,
+      "RDW_51277": 0.19728884202228028
+    }
+  }
+}
