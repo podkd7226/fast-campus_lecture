@@ -180,13 +180,13 @@ A: 네, dataset2 폴더의 다른 테이블(진단 코드, 약물 처방 등)을
 ## 📚 관련 문서
 
 ### 예측 모델 데이터셋
-- **[Essential Dataset 분석](./Essential_Dataset_Analysis.md)** - 기본 변수 세트 (결측률 6%)
-- **[Extended Dataset 분석](./Extended_Dataset_Analysis.md)** - 확장 변수 세트 (결측률 22%)
-- **[Comprehensive Dataset 분석](./Comprehensive_Dataset_Analysis.md)** - 포괄적 변수 세트 (결측률 37%)
+- **[Essential Dataset 분석](./docs/datasets/Essential_Dataset_Analysis.md)** - 기본 변수 세트 (결측률 6%)
+- **[Extended Dataset 분석](./docs/datasets/Extended_Dataset_Analysis.md)** - 확장 변수 세트 (결측률 22%)
+- **[Comprehensive Dataset 분석](./docs/datasets/Comprehensive_Dataset_Analysis.md)** - 포괄적 변수 세트 (결측률 37%)
 
 ### 가이드 문서
-- **[모델링 가이드](./Modeling_Guide.md)** - 예측 모델 개발 실용 가이드
-- **[MIMIC-IV 나이 계산 가이드](./MIMIC_IV_Age_Calculation_Guide.md)** - anchor_age 이해와 정확한 나이 계산법
+- **[MIMIC-IV 나이 계산 가이드](./docs/guides/MIMIC_IV_Age_Calculation_Guide.md)** - anchor_age 이해와 정확한 나이 계산법
+- **[모델링 가이드](./docs/guides/Modeling_Guide.md)** - 예측 모델 개발 실용 가이드
 
 ## 🔗 관련 분석
 - [초기 혈액검사 분석](../analysis_initial_lab_re/README.md)

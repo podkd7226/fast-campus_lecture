@@ -9,9 +9,9 @@
 ## 📊 제공 데이터셋
 
 > 📖 **각 데이터셋의 상세 분석**
-> - [Essential Dataset 상세 분석](./Essential_Dataset_Analysis.md)
-> - [Extended Dataset 상세 분석](./Extended_Dataset_Analysis.md)
-> - [Comprehensive Dataset 상세 분석](./Comprehensive_Dataset_Analysis.md)
+> - [Essential Dataset 상세 분석](../datasets/Essential_Dataset_Analysis.md)
+> - [Extended Dataset 상세 분석](../datasets/Extended_Dataset_Analysis.md)
+> - [Comprehensive Dataset 상세 분석](../datasets/Comprehensive_Dataset_Analysis.md)
 
 ### 1. Essential Dataset (필수 변수 세트)
 - **파일**: `model_dataset_essential.csv`
@@ -362,7 +362,7 @@ shap.summary_plot(shap_values, X_test)
 ## 📚 추가 자료
 
 - [MIMIC-IV 나이 계산 가이드](./MIMIC_IV_Age_Calculation_Guide.md)
-- [결측값 분석 보고서](../analysis_initial_lab/missing_value_analysis.md)
+- [결측값 분석 보고서](../../../analysis_initial_lab/missing_value_analysis.md)
 - [XGBoost 문서](https://xgboost.readthedocs.io/)
 - [Scikit-learn Imputation](https://scikit-learn.org/stable/modules/impute.html)
 

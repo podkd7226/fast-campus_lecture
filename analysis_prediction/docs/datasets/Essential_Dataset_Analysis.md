@@ -219,7 +219,7 @@ df['critical_glucose'] = ((df['Glucose'] < 40) | (df['Glucose'] > 500)).astype(i
 ## 🔗 관련 문서
 - [Extended Dataset 분석](./Extended_Dataset_Analysis.md) - 더 많은 변수 포함
 - [Comprehensive Dataset 분석](./Comprehensive_Dataset_Analysis.md) - 특수 검사 포함
-- [모델링 가이드](./Modeling_Guide.md) - 실제 모델 구현 방법
+- [모델링 가이드](../guides/Modeling_Guide.md) - 실제 모델 구현 방법
 
 ---
 

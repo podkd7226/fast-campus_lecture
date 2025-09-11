@@ -337,8 +337,8 @@ prognosis_model = train_model(df[prognosis_features])
 ## 🔗 관련 문서
 - [Essential Dataset 분석](./Essential_Dataset_Analysis.md) - 기본 변수만 포함
 - [Extended Dataset 분석](./Extended_Dataset_Analysis.md) - 중간 수준 변수
-- [모델링 가이드](./Modeling_Guide.md) - 실제 모델 구현 방법
-- [MIMIC-IV 나이 계산](./MIMIC_IV_Age_Calculation_Guide.md) - 정확한 나이 계산법
+- [모델링 가이드](../guides/Modeling_Guide.md) - 실제 모델 구현 방법
+- [MIMIC-IV 나이 계산](../../MIMIC_IV_Age_Calculation_Guide.md) - 정확한 나이 계산법
 
 ---
 

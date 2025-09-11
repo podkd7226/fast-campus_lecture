@@ -59,6 +59,7 @@
 |------|-------|----------|------|
 | **Random Forest** | 0.8145 | 0.4160 | 최고 성능 |
 | **XGBoost** | 0.8124 | 0.4762 | F1 Score 우수 |
+| **Logistic Regression** | 0.8011 | - | 선형 모델, 해석 가능 |
 
 ### 입원기간 예측 (R²)
 
@@ -70,13 +71,13 @@
 
 ### ROC Curves 비교
 
-![ROC Curves 비교](../../figures/essential_tree_roc_comparison.png)
+![ROC Curves 비교](../../../figures/essential_tree_roc_comparison.png)
 *전체 사망 예측 ROC Curves - Random Forest vs XGBoost*
 
-![Baseline ROC - 전체 사망](../../figures/essential_baseline_roc_death.png)
+![Baseline ROC - 전체 사망](../../../figures/essential_baseline_roc_death.png)
 *Logistic Regression ROC Curve - 전체 사망 예측*
 
-![Baseline ROC - 병원 내 사망](../../figures/essential_baseline_roc_hospital.png)
+![Baseline ROC - 병원 내 사망](../../../figures/essential_baseline_roc_hospital.png)
 *Logistic Regression ROC Curve - 병원 내 사망 예측*
 
 ---
@@ -85,7 +86,7 @@
 
 ### 1. Linear Regression 계수의 역설
 
-![입원기간 예측 특성 중요도](../../figures/essential_baseline_los_features.png)
+![입원기간 예측 특성 중요도](../../../figures/essential_baseline_los_features.png)
 *Linear Regression - 입원기간 예측 Top 15 중요 특성*
 
 #### 발견된 패턴
@@ -126,7 +127,7 @@ Potassium coefficient: -0.45 (음수)
 
 ### 사망 예측 특성 중요도
 
-![사망 예측 특성 중요도](../../figures/essential_baseline_death_features.png)
+![사망 예측 특성 중요도](../../../figures/essential_baseline_death_features.png)
 *Logistic Regression - 사망 예측 Top 15 중요 특성*
 
 ### 3. 모델별 특징
@@ -147,30 +148,30 @@ Potassium coefficient: -0.45 (음수)
 
 #### Random Forest 특성 중요도
 
-![RF 사망 예측 중요도](../../figures/essential_rf_death_importance.png)
+![RF 사망 예측 중요도](../../../figures/essential_rf_death_importance.png)
 *Random Forest - 사망 예측 Top 15 중요 특성*
 
-![RF 입원기간 예측 중요도](../../figures/essential_rf_los_importance.png)
+![RF 입원기간 예측 중요도](../../../figures/essential_rf_los_importance.png)
 *Random Forest - 입원기간 예측 Top 15 중요 특성*
 
 #### XGBoost 특성 중요도
 
-![XGB 사망 예측 중요도](../../figures/essential_xgb_death_importance.png)
+![XGB 사망 예측 중요도](../../../figures/essential_xgb_death_importance.png)
 *XGBoost - 사망 예측 Top 15 중요 특성*
 
 ### 5. 입원기간 예측 분석
 
 #### 예측 vs 실제 분포
 
-![입원기간 예측 산점도](../../figures/essential_baseline_los_scatter.png)
+![입원기간 예측 산점도](../../../figures/essential_baseline_los_scatter.png)
 *Linear Regression - 입원기간 예측 vs 실제*
 
-![Tree 모델 입원기간 비교](../../figures/essential_tree_los_comparison.png)
+![Tree 모델 입원기간 비교](../../../figures/essential_tree_los_comparison.png)
 *Random Forest vs XGBoost - 입원기간 예측 비교*
 
 #### 잔차 분석
 
-![잔차 분포](../../figures/essential_baseline_los_residuals.png)
+![잔차 분포](../../../figures/essential_baseline_los_residuals.png)
 *Linear Regression - 잔차 분포 및 Q-Q Plot*
 
 ---

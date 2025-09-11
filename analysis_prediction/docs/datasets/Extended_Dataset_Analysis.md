@@ -268,7 +268,7 @@ model_full = train_model(X[all_features])
 ## 🔗 관련 문서
 - [Essential Dataset 분석](./Essential_Dataset_Analysis.md) - 기본 변수만 포함
 - [Comprehensive Dataset 분석](./Comprehensive_Dataset_Analysis.md) - 특수 검사 추가 포함
-- [모델링 가이드](./Modeling_Guide.md) - 실제 모델 구현 방법
+- [모델링 가이드](../guides/Modeling_Guide.md) - 실제 모델 구현 방법
 
 ---
 
